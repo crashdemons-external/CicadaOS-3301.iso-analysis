@@ -50,7 +50,6 @@ Archive citations use web links, pinned to the checked-out Git commit or capture
 - [archives/uncovering-cicada-wiki-20260810/export/uncovering-cicada-wiki-export.xml:36595](https://uncovering-cicada.fandom.com/wiki/What_Happened_Part_1_%282013%29?oldid=44205)
 - [archives/uncovering-cicada-wiki-20260810/export/uncovering-cicada-wiki-export.xml:36610-36612](https://uncovering-cicada.fandom.com/wiki/What_Happened_Part_1_%282013%29?oldid=44205)
 - [archives/uncovering-cicada-wiki-users-20260810/uncovering-cicada-wiki-users-export.xml](https://uncovering-cicada.fandom.com/wiki/Special:Export)
-- [https://cyber.meme.tips/archives/irc/cicada-3209987udsj0x/](https://cyber.meme.tips/archives/irc/cicada-3209987udsj0x/)
 - [reference-docs/irc/cyber-meme-tips-cicada-3209987udsj0x-20260810/2013/2013-Jan_-3301hackers.txt:1672-1673](https://cyber.meme.tips/archives/irc/cicada-3209987udsj0x/)
 - [reference-docs/irc/cyber-meme-tips-cicada-3209987udsj0x-20260810/2013/2013-Jan_-3301hackers.txt:299](https://cyber.meme.tips/archives/irc/cicada-3209987udsj0x/)
 
