@@ -16,10 +16,11 @@
     },
     {
       "path": "README.md",
-      "bytes": 2418,
-      "sha256": "85ffe0fc55f21cf44b9f48c07a52b2378f5b68f7dd672cbb7726e8fdf929c9ad",
+      "bytes": 3815,
+      "sha256": "99fa9c410c3ac6de9f44a4e873374dba5db563b3666ea1f96f47fb9b30e943b8",
       "generated_for_export": true,
-      "changed_for_iso_exclusion": true
+      "changed_for_iso_exclusion": true,
+      "updated_for_repository_overview": true
     },
     {
       "path": "SOURCES.md",

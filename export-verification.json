@@ -1,11 +1,11 @@
 {
   "all_checks_pass": true,
   "files_hash_verified": 741,
-  "copied_bytes": 266462843,
+  "copied_bytes": 266464240,
   "changed_markdown_files": 18,
   "bad_hashes": [],
   "broken_local_links": [],
-  "local_links_checked": 176,
-  "web_links": 128,
+  "local_links_checked": 181,
+  "web_links": 127,
   "web_link_scope": "Source mapping uses Git remotes/commits and captured wiki revision IDs; web targets were not all individually fetched."
 }
