@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "linux-v3.0-boot.txt",
+      "bytes": 35147,
+      "sha256": "6bc1482f5272943857f6dd7df16ccffa251145628a8d342e208d94cb921bc9a8",
+      "source_url": "https://raw.githubusercontent.com/torvalds/linux/v3.0/Documentation/x86/boot.txt",
+      "retrieved_date": "2026-10-10",
+      "use": "Read-only format/construction reference for 2013 ISO audit; never executed."
+    },
+    {
+      "path": "linux-v3.0-build.c",
+      "bytes": 7945,
+      "sha256": "9982b24ffb7bc4b04b8abd55b1dfcaa29fbd82337994c577ad3d1c300d430ff4",
+      "source_url": "https://raw.githubusercontent.com/torvalds/linux/v3.0/arch/x86/boot/tools/build.c",
+      "retrieved_date": "2026-10-10",
+      "use": "Read-only format/construction reference for 2013 ISO audit; never executed."
+    },
+    {
+      "path": "syslinux-3.82-isolinux.asm",
+      "bytes": 44195,
+      "sha256": "a5dc62e5e22feccb3423b942bddf49145fa347e1b3dce9d12d784e0ca602bdd7",
+      "source_url": "https://cdn.kernel.org/pub/linux/utils/boot/syslinux/3.xx/syslinux-3.82.tar.gz",
+      "retrieved_date": "2026-10-10",
+      "use": "Read-only format/construction reference for 2013 ISO audit; never executed.",
+      "package_member": "syslinux-3.82/core/isolinux.asm"
+    },
+    {
+      "path": "syslinux-3.82-isolinux.txt",
+      "bytes": 5979,
+      "sha256": "c64c820d81ca19fa4c8e03df307ede03e2be8d777f3f80c71a2711e0be606a6a",
+      "source_url": "https://cdn.kernel.org/pub/linux/utils/boot/syslinux/3.xx/syslinux-3.82.tar.gz",
+      "retrieved_date": "2026-10-10",
+      "use": "Read-only format/construction reference for 2013 ISO audit; never executed.",
+      "package_member": "syslinux-3.82/doc/isolinux.txt"
+    }
+  ],
+  "scope": "Upstream reference copies, not Cicada primary sources. Byte-identical to working copies retained with the audit outputs."
+}

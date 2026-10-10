@@ -1,0 +1,157 @@
+{
+  "scope": "Raw ISO system area, El Torito records and loader metadata; no mounting or input-code execution.",
+  "system_area": {
+    "size": 32768,
+    "nonzero": 0,
+    "sha256": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479"
+  },
+  "sector_aligned_volume_signatures": [
+    {
+      "sector": 16,
+      "type_byte": 1,
+      "identifier": "CD001"
+    },
+    {
+      "sector": 17,
+      "type_byte": 0,
+      "identifier": "CD001"
+    },
+    {
+      "sector": 18,
+      "type_byte": 255,
+      "identifier": "CD001"
+    }
+  ],
+  "boot_record": {
+    "sector": 17,
+    "boot_system_identifier_hex": "454c20544f5249544f2053504543494649434154494f4e000000000000000000",
+    "boot_identifier": {
+      "size": 32,
+      "nonzero": 0,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    "unused_after_catalog_pointer": {
+      "size": 1973,
+      "nonzero": 0,
+      "sha256": "f62f6ebdd2cc37116f70430c793841cd61f4b1084527a8a6ecdac51460f5fc55"
+    },
+    "catalog_lba": 29
+  },
+  "catalog": {
+    "lba": 29,
+    "directory_lba": 29,
+    "directory_size": 2048,
+    "validation_header_id": 1,
+    "platform_id": 0,
+    "reserved_bytes_2_4_hex": "0000",
+    "manufacturer_hex": "000000000000000000000000000000000000000000000000",
+    "checksum_mod_65536": 0,
+    "validation_key_hex": "55aa",
+    "default_entry_hex": "88000000000004001e0000000000000000000000000000000000000000000000",
+    "default_entry_unused": {
+      "size": 20,
+      "nonzero": 0,
+      "sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90"
+    },
+    "after_default_entry": {
+      "size": 1984,
+      "nonzero": 0,
+      "sha256": "5b4a97decc57a48382234b6f23e27a26357ea1855d3c052ff4db94e6f91e37ee"
+    },
+    "bootable": true,
+    "media_type": 0,
+    "load_segment": 0,
+    "system_type": 0,
+    "unused_byte": 0,
+    "load_bytes": 2048,
+    "image_lba": 30
+  },
+  "boot_info_table": {
+    "pvd_lba": 16,
+    "boot_lba": 30,
+    "file_length": 14336,
+    "checksum": 1633136854,
+    "computed_checksum": 1633136854,
+    "checksum_matches": true,
+    "reserved_24_64": {
+      "size": 40,
+      "nonzero": 0,
+      "sha256": "2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb"
+    },
+    "pvd_pointer_matches": true,
+    "catalog_and_directory_image_pointer_match": true,
+    "length_matches": true,
+    "loaded_bytes_match_file_prefix": true
+  },
+  "end_padding": {
+    "last_directory_file": "BOOT/ISOLINUX/SPLASH.RLE",
+    "last_file_end_exclusive": 136091432,
+    "final_file_sector_slack": {
+      "size": 216,
+      "nonzero": 0,
+      "sha256": "a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70"
+    },
+    "whole_sector_padding": {
+      "size": 307200,
+      "nonzero": 0,
+      "sha256": "7818f5542a0404157573be6cffc0e0c8e68ce3c0f5d17d07ccdd9313fb700baf"
+    },
+    "whole_padding_sectors": 150,
+    "matches_150_sector_mkisofs_default": true
+  },
+  "kernel_boot_header": {
+    "protocol_version": "0x20a",
+    "setup_sects": 26,
+    "protected_code_start": 13824,
+    "protected_code_length_from_syssize": 2478144,
+    "protected_code_end": 2491968,
+    "file_length_matches_header": true,
+    "payload_start": 13922,
+    "payload_length": 2461201,
+    "gzip_at_header_declared_offset": true,
+    "declared_payload_is_exact_complete_gzip": true,
+    "gzip_uncompressed_size": 4941256,
+    "uncompressed_sha256": "167258cc1c9256328b04d5f0401e037b05f1fa0883a02fcd09375857b2ceb9eb",
+    "matches_previously_carved_elf": true,
+    "remaining_wrapper_after_gzip": 16845,
+    "last4_little_endian": "0x81b64dc1",
+    "zlib_crc32_excluding_last4": "0x7e49b23e",
+    "last4_equals_complemented_zlib_crc32": true,
+    "zlib_crc32_entire_file": "0xffffffff",
+    "source": "https://www.kernel.org/doc/html/latest/arch/x86/boot.html",
+    "checksum_limit": "Convention corroborated by the saved upstream Linux v3.0 build.c and boot.txt; matching CRC is consistency, not authenticity."
+  },
+  "baseline": {
+    "url": "https://cdn.kernel.org/pub/linux/utils/boot/syslinux/3.xx/syslinux-3.82.tar.gz",
+    "checksum_url": "https://cdn.kernel.org/pub/linux/utils/boot/syslinux/3.xx/sha256sums.asc",
+    "download_error": null,
+    "comparison_available": true,
+    "trust_limit": "Official HTTPS download and checksum comparison when available; detached OpenPGP signature not independently authenticated.",
+    "package_size": 3795792,
+    "package_sha256": "7dac4117d44a3ef01bbf2d385419ec056ba58b657457ea19a0f9a64c3b00a43d",
+    "official_checksum_matches": true,
+    "baseline_loader_size": 14336,
+    "baseline_loader_sha256": "e9a4817ab449a50364b0dd33425bdc596d222c1792a460831f87487439385e32",
+    "iso_loader_sha256": "f50b009e829e91e3a8e241eeb5724ca02607596d0e80289cd43cc61b69835b17",
+    "diff_ranges": [
+      {
+        "start": 12,
+        "end_exclusive": 13,
+        "iso_hex": "1e",
+        "baseline_hex": "00"
+      },
+      {
+        "start": 24,
+        "end_exclusive": 64,
+        "iso_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "baseline_hex": "efbeaddeefbeaddeefbeaddeefbeaddeefbeaddeefbeaddeefbeaddeefbeaddeefbeaddeefbeadde"
+      }
+    ],
+    "equal_outside_boot_info_table": true
+  },
+  "sources": [
+    "https://wiki.syslinux.org/wiki/index.php?title=ISOLINUX",
+    "https://cdn.kernel.org/pub/linux/utils/boot/syslinux/3.xx/"
+  ],
+  "limits": "Checksums test internal consistency, not adversarial authenticity. No full matching Tiny Core baseline or runtime analysis."
+}

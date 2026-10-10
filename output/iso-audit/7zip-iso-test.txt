@@ -1,0 +1,29 @@
+
+7-Zip 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+
+Scanning the drive for archives:
+1 file, 136398848 bytes (131 MiB)
+
+Testing archive: C:\Users\crash\OneDrive\Desktop\liber-primus\archives\3301.iso
+--
+Path = C:\Users\crash\OneDrive\Desktop\liber-primus\archives\3301.iso
+Type = Iso
+Physical Size = 136398848
+Comment = 
+{
+System: LINUX
+Volume: CDROM
+Application: MKISOFS ISO 9660/HFS FILESYSTEM BUILDER & CDRECORD CD-R/DVD CREATOR (C) 1993 E.YOUNGDALE (C) 1997 J.PEARSON/J.SCHILLING
+VolumeSpaceSize: 136398848
+VolumeSetSize: 1
+VolumeSequenceNumber: 1
+}
+Created = 2013-01-03 23:19:55.00
+Modified = 2013-01-03 23:19:55.00
+
+Everything is Ok
+
+Folders: 4
+Files: 12
+Size:       136025844
+Compressed: 136398848

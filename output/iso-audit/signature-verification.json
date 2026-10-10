@@ -1,0 +1,208 @@
+{
+  "scope": "stdlib-only local packet parsing and public-key signature verification; no execution",
+  "signature": {
+    "valid": true,
+    "signature_type": 1,
+    "public_key_algorithm": 1,
+    "hash_algorithm": 2,
+    "key_fingerprint_v4_sha1": "6D854CD7933322A601C3286D181F01E57A35090F",
+    "key_id": "181F01E57A35090F",
+    "key_user_id": "Cicada 3301 (845145127)",
+    "signature_created_unix": 1357171691,
+    "signature_created_utc": "2013-01-03T00:08:11+00:00",
+    "canonical_text_sha1": "2924ee8ba6fbd22fe98314e50193d51e6319b27f",
+    "signed_cleartext_exactly_matches_message_txt": false,
+    "matches_after_removing_one_leading_blank_line": true,
+    "rsa_decoded_sha1_digest": "2924ee8ba6fbd22fe98314e50193d51e6319b27f",
+    "rsa_modulus_bits": 4096,
+    "signature_mpi_bits": 4096,
+    "verification_method": "OpenPGP v4 canonical-text signature; SHA-1 digest with v4 hashed-subpacket trailer; RSA public operation and PKCS#1 v1.5 SHA-1 DigestInfo comparison"
+  },
+  "archive_hash_comparisons": [
+    {
+      "path": "usr/local/bin/cicada",
+      "rootfs_sha256": "e5231e14d404c43a74820c3ea9067c4900c36b03438660cfb69c9aa31fc3b75c",
+      "archive_copies": [
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\usr\\local\\bin\\cicada",
+          "sha256": "c9d0231e445790e3ced20cd5a5fb18b8a74b5baa8e5173a2607142bede88276c",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\usr_local_bin\\cicada",
+          "sha256": "c9d0231e445790e3ced20cd5a5fb18b8a74b5baa8e5173a2607142bede88276c",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\usr_local_bin\\cicada",
+          "sha256": "c9d0231e445790e3ced20cd5a5fb18b8a74b5baa8e5173a2607142bede88276c",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\usr_local_bin\\cicada",
+          "sha256": "c9d0231e445790e3ced20cd5a5fb18b8a74b5baa8e5173a2607142bede88276c",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        }
+      ]
+    },
+    {
+      "path": "usr/local/bin/prime_echo",
+      "rootfs_sha256": "1ab3a8f4520a3d93784aea137847e0c7f77d9fff4df02d481b62d13280753350",
+      "archive_copies": [
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\usr\\local\\bin\\prime_echo",
+          "sha256": "307a4ef0b70a6209094b69a442ba62b1187dd0f6ff4b68367649b2d8a8806a43",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\usr_local_bin\\prime_echo",
+          "sha256": "307a4ef0b70a6209094b69a442ba62b1187dd0f6ff4b68367649b2d8a8806a43",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\usr_local_bin\\prime_echo",
+          "sha256": "307a4ef0b70a6209094b69a442ba62b1187dd0f6ff4b68367649b2d8a8806a43",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\usr_local_bin\\prime_echo",
+          "sha256": "307a4ef0b70a6209094b69a442ba62b1187dd0f6ff4b68367649b2d8a8806a43",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        }
+      ]
+    },
+    {
+      "path": "usr/local/bin/message.txt",
+      "rootfs_sha256": "c4ba455cd05d98743751d89e521c8fa4252a472734438f10067cbb899fdfe6a0",
+      "archive_copies": [
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\usr\\local\\bin\\message.txt",
+          "sha256": "aa4d27d30b564b680eb21252269be40d4a2c79dfcb6ede2c0d96935dad427466",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\usr_local_bin\\message.txt",
+          "sha256": "aa4d27d30b564b680eb21252269be40d4a2c79dfcb6ede2c0d96935dad427466",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\usr_local_bin\\message.txt",
+          "sha256": "aa4d27d30b564b680eb21252269be40d4a2c79dfcb6ede2c0d96935dad427466",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\usr_local_bin\\message.txt",
+          "sha256": "aa4d27d30b564b680eb21252269be40d4a2c79dfcb6ede2c0d96935dad427466",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        }
+      ]
+    },
+    {
+      "path": "usr/local/bin/message.txt.asc",
+      "rootfs_sha256": "4401b6536f99d9716e91b10bf99777d4a75dce58fe50533cb847238af17eaf6e",
+      "archive_copies": [
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\usr\\local\\bin\\message.txt.asc",
+          "sha256": "c7170de80ffbd46620637d520ffa6debd2770c99d3d3dda5239749a26208ec23",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\usr_local_bin\\message.txt.asc",
+          "sha256": "c7170de80ffbd46620637d520ffa6debd2770c99d3d3dda5239749a26208ec23",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\usr_local_bin\\message.txt.asc",
+          "sha256": "c7170de80ffbd46620637d520ffa6debd2770c99d3d3dda5239749a26208ec23",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\usr_local_bin\\message.txt.asc",
+          "sha256": "c7170de80ffbd46620637d520ffa6debd2770c99d3d3dda5239749a26208ec23",
+          "exact_bytes_same": false,
+          "normalized_line_endings_same": true
+        }
+      ]
+    },
+    {
+      "path": "tmp/folly",
+      "rootfs_sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+      "archive_copies": [
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\tmp\\folly",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        }
+      ]
+    },
+    {
+      "path": "tmp/wisdom",
+      "rootfs_sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+      "archive_copies": [
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\tmp\\wisdom",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\wisdom",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\tmp\\wisdom",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\tmp\\wisdom",
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+          "exact_bytes_same": true,
+          "normalized_line_endings_same": null
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "A mathematically valid signature binds the cleartext to this public key; it does not by itself authenticate the key provenance or identity.",
+    "Signature timestamp is signer-supplied metadata.",
+    "Archive comparison only covers exact paths found in the listed local copies."
+  ]
+}

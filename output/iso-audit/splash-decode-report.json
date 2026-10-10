@@ -1,0 +1,195 @@
+{
+  "input_bytes": 14120,
+  "header_bytes": 56,
+  "magic_hex": "3d f3 13 14",
+  "width": 640,
+  "height": 300,
+  "palette_6bit": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      7,
+      6
+    ],
+    [
+      10,
+      11,
+      10
+    ],
+    [
+      15,
+      15,
+      14
+    ],
+    [
+      19,
+      19,
+      19
+    ],
+    [
+      24,
+      24,
+      23
+    ],
+    [
+      28,
+      28,
+      28
+    ],
+    [
+      52,
+      52,
+      52
+    ],
+    [
+      32,
+      33,
+      32
+    ],
+    [
+      37,
+      37,
+      37
+    ],
+    [
+      42,
+      42,
+      42
+    ],
+    [
+      47,
+      47,
+      46
+    ],
+    [
+      51,
+      52,
+      51
+    ],
+    [
+      57,
+      57,
+      56
+    ],
+    [
+      62,
+      62,
+      62
+    ],
+    [
+      63,
+      63,
+      63
+    ]
+  ],
+  "palette_rgb8": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      24,
+      28,
+      24
+    ],
+    [
+      40,
+      45,
+      40
+    ],
+    [
+      61,
+      61,
+      57
+    ],
+    [
+      77,
+      77,
+      77
+    ],
+    [
+      97,
+      97,
+      93
+    ],
+    [
+      113,
+      113,
+      113
+    ],
+    [
+      210,
+      210,
+      210
+    ],
+    [
+      130,
+      134,
+      130
+    ],
+    [
+      150,
+      150,
+      150
+    ],
+    [
+      170,
+      170,
+      170
+    ],
+    [
+      190,
+      190,
+      186
+    ],
+    [
+      206,
+      210,
+      206
+    ],
+    [
+      231,
+      231,
+      227
+    ],
+    [
+      251,
+      251,
+      251
+    ],
+    [
+      255,
+      255,
+      255
+    ]
+  ],
+  "rle_payload_bytes": 14064,
+  "rle_bytes_consumed": 14064,
+  "unused_complete_bytes": 0,
+  "unused_high_nibble_in_last_read_byte": false,
+  "run_anomalies": [],
+  "distinct_palette_indices_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "input": "C:\\Users\\crash\\OneDrive\\Desktop\\liber-primus\\output\\iso-audit\\iso-files\\BOOT\\ISOLINUX\\SPLASH.RLE",
+  "ppm": "C:\\Users\\crash\\OneDrive\\Desktop\\liber-primus\\output\\iso-audit\\splash-decoded.ppm",
+  "png": "C:\\Users\\crash\\OneDrive\\Desktop\\liber-primus\\output\\iso-audit\\splash-decoded.png"
+}

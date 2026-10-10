@@ -1,0 +1,19 @@
+
+7-Zip 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+
+Scanning the drive for archives:
+1 file, 8324608 bytes (8130 KiB)
+
+Testing archive: C:\Users\crash\OneDrive\Desktop\liber-primus\output\iso-audit\initramfs.cpio
+--
+Path = C:\Users\crash\OneDrive\Desktop\liber-primus\output\iso-audit\initramfs.cpio
+Type = Cpio
+Physical Size = 8324608
+SubType = New ASCII
+
+Everything is Ok
+
+Folders: 173
+Files: 1028
+Size:       8147104
+Compressed: 8324608

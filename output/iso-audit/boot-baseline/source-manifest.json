@@ -1,0 +1,18 @@
+{
+  "upstream_ref": "Linux v3.0 source tree, torvalds/linux",
+  "files": [
+    {
+      "path": "boot.txt",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/v3.0/Documentation/x86/boot.txt",
+      "sha256": "6bc1482f5272943857f6dd7df16ccffa251145628a8d342e208d94cb921bc9a8",
+      "use": "read-only source for x86 boot protocol header fields and image checksum semantics; checksum lines 696-700, payload fields around 614-633"
+    },
+    {
+      "path": "build.c",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/v3.0/arch/x86/boot/tools/build.c",
+      "sha256": "9982b24ffb7bc4b04b8abd55b1dfcaa29fbd82337994c577ad3d1c300d430ff4",
+      "use": "read-only source for setup_sects/syssize calculation, CRC accumulator initialization, padding, and appended checksum; relevant lines around 145-150 and 205-242"
+    }
+  ],
+  "retrieval": "Retrieved via HTTPS with response status and size bounded; sources were saved as data and not executed."
+}

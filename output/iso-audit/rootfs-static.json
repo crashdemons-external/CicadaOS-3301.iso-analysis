@@ -1,0 +1,151 @@
+{
+  "scope": "static analysis of extracted rootfs; no files executed; symlinks not followed",
+  "counts": {
+    "manifest_entries": 1202,
+    "regular_files": 612,
+    "symlinks": 291,
+    "hardlink_groups": []
+  },
+  "baseline_mtime": {
+    "unix": 1356597473,
+    "utc": "2012-12-27T08:37:53+00:00",
+    "regular_file_count": 604
+  },
+  "prime_check": {
+    "listed_count": 464,
+    "expected_prime_count_2_to_3301": 464,
+    "exact_sequence_match": true,
+    "composite_or_invalid_entries": [],
+    "omitted_or_extra": {
+      "missing": [],
+      "extra": []
+    },
+    "sleep_0_05_count": 462,
+    "sleep_2_count": 2,
+    "nominal_explicit_sleep_seconds": 27.1,
+    "special_pause_lines": [
+      {
+        "line": 176,
+        "text": "echo -n \"1033\t\"; sleep 2"
+      },
+      {
+        "line": 466,
+        "text": "echo -n \"3301\t\"; sleep 2"
+      }
+    ]
+  },
+  "notable_files": [
+    {
+      "path": "usr/local/bin/cicada",
+      "size": 106,
+      "sha256": "e5231e14d404c43a74820c3ea9067c4900c36b03438660cfb69c9aa31fc3b75c",
+      "text_preview": "#!/bin/ash\n\nclear\n/usr/local/bin/prime_echo\nclear\n\ncat /usr/local/bin/message.txt\n\nsleep 10\n\n/sbin/reboot\n"
+    },
+    {
+      "path": "usr/local/bin/prime_echo",
+      "size": 12248,
+      "sha256": "1ab3a8f4520a3d93784aea137847e0c7f77d9fff4df02d481b62d13280753350",
+      "text_preview": "#!/bin/ash \n\necho -n \"2\t\"; sleep .05\necho -n \"3\t\"; sleep .05\necho -n \"5\t\"; sleep .05\necho -n \"7\t\"; sleep .05\necho -n \"11\t\"; sleep .05\necho -n \"13\t\"; sleep .05\necho -n \"17\t\"; sleep .05\necho -n \"19\t\"; sleep .05\necho -n \"23\t\"; sleep .05\necho  \"29\t\"; sleep .05\necho -n \"31\t\"; sleep .05\necho -n \"37\t\"; sleep .05\necho -n \"41\t\"; sleep .05\necho -n \"43\t\"; sleep .05\necho -n \"47\t\"; sleep .05\necho -n \"53\t\"; sle"
+    },
+    {
+      "path": "usr/local/bin/message.txt",
+      "size": 65,
+      "sha256": "c4ba455cd05d98743751d89e521c8fa4252a472734438f10067cbb899fdfe6a0",
+      "text_preview": "\n\n@1231507051321\n\nThe key is all around you.\n\nGood luck.\n\n3301\n\n\n"
+    },
+    {
+      "path": "usr/local/bin/message.txt.asc",
+      "size": 948,
+      "sha256": "4401b6536f99d9716e91b10bf99777d4a75dce58fe50533cb847238af17eaf6e",
+      "text_preview": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\n\n@1231507051321\n\nThe key is all around you.\n\nGood luck.\n\n3301\n\n\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.11 (GNU/Linux)\n\niQIcBAEBAgAGBQJQ5MvrAAoJEBgfAeV6NQkPKSQQALEvCEvNMdGdMX9IogNfVRHJ\n6ABGAtply7B/8XvGIZ+WDDsH81UJG9MtGsHs6tLgS61A37CJg4+/tmSDFbv5rqKe\nyL2dUsPIaqybU6gnEwofllseo5iZbMFfY3C/rUCHLgjLXb66WX/0EMpPHIez07rV\n9cME34WxDxDehmOiB/wxUBuBZEj+"
+    },
+    {
+      "path": "tmp/folly",
+      "size": 3368,
+      "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+      "text_preview": null,
+      "identical_sha256_to": "tmp/wisdom"
+    },
+    {
+      "path": "tmp/wisdom",
+      "size": 3368,
+      "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+      "text_preview": null,
+      "identical_sha256_to": "tmp/folly"
+    }
+  ],
+  "nonbaseline_regular_file_mtimes": [
+    {
+      "path": "usr/local/bin/cicada",
+      "mtime_unix": 1357128136,
+      "mtime_utc": "2013-01-02T12:02:16+00:00",
+      "size": 106
+    },
+    {
+      "path": "usr/local/bin/message.txt",
+      "mtime_unix": 1357171737,
+      "mtime_utc": "2013-01-03T00:08:57+00:00",
+      "size": 65
+    },
+    {
+      "path": "usr/local/bin/prime_echo",
+      "mtime_unix": 1356827461,
+      "mtime_utc": "2012-12-30T00:31:01+00:00",
+      "size": 12248
+    },
+    {
+      "path": "usr/local/bin/message.txt.asc",
+      "mtime_unix": 1357171726,
+      "mtime_utc": "2013-01-03T00:08:46+00:00",
+      "size": 948
+    },
+    {
+      "path": "etc/init.d/tc-config",
+      "mtime_unix": 1356599869,
+      "mtime_utc": "2012-12-27T09:17:49+00:00",
+      "size": 16062
+    },
+    {
+      "path": "etc/passwd",
+      "mtime_unix": 1356599956,
+      "mtime_utc": "2012-12-27T09:19:16+00:00",
+      "size": 175
+    },
+    {
+      "path": "tmp/folly",
+      "mtime_unix": 1357176310,
+      "mtime_utc": "2013-01-03T01:25:10+00:00",
+      "size": 3368
+    },
+    {
+      "path": "tmp/wisdom",
+      "mtime_unix": 1357176222,
+      "mtime_utc": "2013-01-03T01:23:42+00:00",
+      "size": 3368
+    }
+  ],
+  "persistence_and_networking": {
+    "initial_autologin": "/sbin/autologin first-run path executes login -f root; root shell then runs cicada",
+    "bootlocal_sh": "comment-only placeholder",
+    "bootsync_sh": "sets hostname box and backgrounds bootlocal.sh",
+    "inittab": "sysinit rcS; tty1 getty -n invokes autologin",
+    "default_networking": "ISO command line has loglevel=3 without nodhcp; tc-config starts dhcp.sh in background unless NODHCP is set",
+    "puzzle_specific_outbound_networking": "none found in puzzle-specific startup files",
+    "generic_network_service_scripts": [
+      "etc/init.d/services/tftpd",
+      "etc/init.d/services/dhcp",
+      "etc/init.d/services/crond"
+    ]
+  },
+  "account_evidence": {
+    "root_shell": "/usr/local/bin/cicada",
+    "initial_autologin": "/sbin/autologin executes login -f root on first invocation",
+    "tc_account": "exists with empty shadow password field and NOPASSWD: ALL sudo; not the initial autologin target"
+  },
+  "caveats": [
+    "The manifest is the authoritative extracted inventory; host extraction can omit empty directories and does not recreate Unix metadata exactly.",
+    "All listed symlinks were treated as inert manifest records and not followed.",
+    "Prime timing is the sum of requested sleeps; actual display timing also includes shell/process scheduling and terminal output.",
+    "Times are archive metadata, not independently authenticated wall-clock creation times."
+  ]
+}

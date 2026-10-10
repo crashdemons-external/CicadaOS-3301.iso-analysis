@@ -1,0 +1,406 @@
+{
+  "input": {
+    "path": "archives/3301.iso",
+    "bytes": 136398848,
+    "sha256": "784643558799dd8bb3e172f31df6d6ca2f397fd61cb8fc371bf930f1e5ae6b7f",
+    "sector_bytes": 2048,
+    "sectors": 66601,
+    "tail_bytes": 0
+  },
+  "descriptor_sequence": [
+    {
+      "lba": 16,
+      "type": 1,
+      "id": "CD001",
+      "version": 1
+    },
+    {
+      "lba": 17,
+      "type": 0,
+      "id": "CD001",
+      "version": 1
+    },
+    {
+      "lba": 18,
+      "type": 255,
+      "id": "CD001",
+      "version": 1
+    }
+  ],
+  "descriptors": [
+    {
+      "lba": 16,
+      "type": 1,
+      "version": 1,
+      "sha256": "c0e6df204caaec3839d41678357a8d62a89e83b5907d6ab4fe406331d7a55ce8",
+      "system_id": {
+        "length": 32,
+        "text": "LINUX",
+        "trailing_space_padding": 27,
+        "padding_valid": true,
+        "nonprintable_bytes": []
+      },
+      "volume_id": {
+        "length": 32,
+        "text": "CDROM",
+        "trailing_space_padding": 27,
+        "padding_valid": true,
+        "nonprintable_bytes": []
+      },
+      "volume_space_size_both": [
+        66601,
+        66601
+      ],
+      "volume_set_size_both": [
+        1,
+        1
+      ],
+      "volume_sequence_both": [
+        1,
+        1
+      ],
+      "block_size_both": [
+        2048,
+        2048
+      ],
+      "path_table_size_both": [
+        64,
+        64
+      ],
+      "type_l_lba": 20,
+      "optional_l_lba": 0,
+      "type_m_lba": 22,
+      "optional_m_lba": 0,
+      "root_record_hex": "220018000000000000180008000000000800710102062a10ec020000010000010100",
+      "root_extent_both": [
+        24,
+        24
+      ],
+      "root_size_both": [
+        2048,
+        2048
+      ],
+      "root_volume_seq_both": [
+        1,
+        1
+      ],
+      "root_flags": 2,
+      "text_fields": {
+        "volume_set_id": {
+          "length": 128,
+          "text": "",
+          "trailing_space_padding": 128,
+          "padding_valid": true,
+          "nonprintable_bytes": []
+        },
+        "publisher_id": {
+          "length": 128,
+          "text": "",
+          "trailing_space_padding": 128,
+          "padding_valid": true,
+          "nonprintable_bytes": []
+        },
+        "data_preparer_id": {
+          "length": 128,
+          "text": "",
+          "trailing_space_padding": 128,
+          "padding_valid": true,
+          "nonprintable_bytes": []
+        },
+        "application_id": {
+          "length": 128,
+          "text": "MKISOFS ISO 9660/HFS FILESYSTEM BUILDER & CDRECORD CD-R/DVD CREATOR (C) 1993 E.YOUNGDALE (C) 1997 J.PEARSON/J.SCHILLING",
+          "trailing_space_padding": 9,
+          "padding_valid": true,
+          "nonprintable_bytes": []
+        },
+        "copyright_file_id": {
+          "length": 37,
+          "text": "",
+          "trailing_space_padding": 37,
+          "padding_valid": true,
+          "nonprintable_bytes": []
+        },
+        "abstract_file_id": {
+          "length": 37,
+          "text": "",
+          "trailing_space_padding": 37,
+          "padding_valid": true,
+          "nonprintable_bytes": []
+        },
+        "bibliographic_file_id": {
+          "length": 37,
+          "text": "",
+          "trailing_space_padding": 37,
+          "padding_valid": true,
+          "nonprintable_bytes": []
+        }
+      },
+      "timestamps": {
+        "creation": {
+          "raw_hex": "32303133303130333233313935353030ec",
+          "text": "2013010323195500",
+          "timezone_raw": 236,
+          "timezone_quarters_signed": -20,
+          "valid": true,
+          "year": 2013,
+          "month": 1,
+          "day": 3,
+          "hour": 23,
+          "minute": 19,
+          "second": 55,
+          "hundredths": 0,
+          "timezone_minutes": -300
+        },
+        "modification": {
+          "raw_hex": "32303133303130333233313935353030ec",
+          "text": "2013010323195500",
+          "timezone_raw": 236,
+          "timezone_quarters_signed": -20,
+          "valid": true,
+          "year": 2013,
+          "month": 1,
+          "day": 3,
+          "hour": 23,
+          "minute": 19,
+          "second": 55,
+          "hundredths": 0,
+          "timezone_minutes": -300
+        },
+        "expiration": {
+          "raw_hex": "3030303030303030303030303030303000",
+          "text": "0000000000000000",
+          "timezone_raw": 0,
+          "timezone_quarters_signed": 0,
+          "valid": true,
+          "meaning": "unspecified"
+        },
+        "effective": {
+          "raw_hex": "32303133303130333233313935353030ec",
+          "text": "2013010323195500",
+          "timezone_raw": 236,
+          "timezone_quarters_signed": -20,
+          "valid": true,
+          "year": 2013,
+          "month": 1,
+          "day": 3,
+          "hour": 23,
+          "minute": 19,
+          "second": 55,
+          "hundredths": 0,
+          "timezone_minutes": -300
+        }
+      },
+      "file_structure_version": 1,
+      "reserved_byte_882": 0,
+      "reserved_7_7_nonzero": 0,
+      "reserved_72_79_nonzero": 0,
+      "reserved_88_119_nonzero": 0,
+      "application_use_offsets": [
+        883,
+        1394
+      ],
+      "application_use_nonzero": 512,
+      "application_use_spaces": 512,
+      "application_use_nuls": 0,
+      "application_use_nonspace": 0,
+      "application_use_sha256": "e449eaf70850b3535de8c39146533eec81cab7ce154bdae59affa8b14963e1ae",
+      "reserved_offsets": [
+        1395,
+        2047
+      ],
+      "reserved_nonzero": 0,
+      "reserved_sha256": "f391ac709e96133b0cb6cc1a52574ae063aa9d8450a860b775b3d7f8a2a4edc7"
+    },
+    {
+      "lba": 17,
+      "type": 0,
+      "version": 1,
+      "sha256": "21bafb2854339a9c2df6b2b2f164355a53f7511b2265f020c7dec09842806b27",
+      "boot_system_id": "EL TORITO SPECIFICATION",
+      "boot_id": "",
+      "catalog_lba": 29,
+      "system_use_nonzero": 0
+    },
+    {
+      "lba": 18,
+      "type": 255,
+      "version": 1,
+      "sha256": "b2bc5412294f3980b59f3db09e5e5edbc85a6e4e6c1f6f4c2bf47f098f2ad0f6",
+      "reserved_7_2047_nonzero": 0,
+      "reserved_7_2047_sha256": "4397a911f72f234b8b9f6dcf16f67b22bed5fc50ba29fca8c8c25da947e22ef3"
+    }
+  ],
+  "CD001_scan": {
+    "occurrences": 3,
+    "descriptor_identifier_offsets": [
+      {
+        "offset": 32769,
+        "lba": 16
+      },
+      {
+        "offset": 34817,
+        "lba": 17
+      },
+      {
+        "offset": 36865,
+        "lba": 18
+      }
+    ]
+  },
+  "path_tables": {
+    "declared_size_both": [
+      64,
+      64
+    ],
+    "type_l": {
+      "lba": 20,
+      "entries": [
+        {
+          "number": 1,
+          "name_hex": "00",
+          "name": "<ROOT>",
+          "extent": 24,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 0
+        },
+        {
+          "number": 2,
+          "name_hex": "415544494f",
+          "name": "AUDIO",
+          "extent": 25,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 10
+        },
+        {
+          "number": 3,
+          "name_hex": "424f4f54",
+          "name": "BOOT",
+          "extent": 27,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 24
+        },
+        {
+          "number": 4,
+          "name_hex": "44415441",
+          "name": "DATA",
+          "extent": 26,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 36
+        },
+        {
+          "number": 5,
+          "name_hex": "49534f4c494e5558",
+          "name": "ISOLINUX",
+          "extent": 28,
+          "parent": 3,
+          "ext_attr_len": 0,
+          "offset": 48
+        }
+      ],
+      "issues": [],
+      "consumed_bytes": 64,
+      "unused_bytes": 0
+    },
+    "type_m": {
+      "lba": 22,
+      "entries": [
+        {
+          "number": 1,
+          "name_hex": "00",
+          "name": "<ROOT>",
+          "extent": 24,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 0
+        },
+        {
+          "number": 2,
+          "name_hex": "415544494f",
+          "name": "AUDIO",
+          "extent": 25,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 10
+        },
+        {
+          "number": 3,
+          "name_hex": "424f4f54",
+          "name": "BOOT",
+          "extent": 27,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 24
+        },
+        {
+          "number": 4,
+          "name_hex": "44415441",
+          "name": "DATA",
+          "extent": 26,
+          "parent": 1,
+          "ext_attr_len": 0,
+          "offset": 36
+        },
+        {
+          "number": 5,
+          "name_hex": "49534f4c494e5558",
+          "name": "ISOLINUX",
+          "extent": 28,
+          "parent": 3,
+          "ext_attr_len": 0,
+          "offset": 48
+        }
+      ],
+      "issues": [],
+      "consumed_bytes": 64,
+      "unused_bytes": 0
+    },
+    "L_M_differences_including_name_parent_extent_extattr": [],
+    "table_directory_tree_differences": {
+      "path_table_without_directory_record": [],
+      "directory_record_without_path_table": []
+    }
+  },
+  "directory_walk": {
+    "directory_count": 5,
+    "file_count": 11,
+    "directory_record_flags": {
+      "2": 14,
+      "0": 11
+    },
+    "ordinary_identifiers": [
+      "AUDIO",
+      "BOOT",
+      "DATA",
+      "761.MP3;1",
+      "3301.IMG;1",
+      "ISOLINUX",
+      "VMLINUZ.;1",
+      "560.13;1",
+      "560.17;1",
+      "_560.00;1",
+      "BOOT.CAT;1",
+      "ISOLINUX.BIN;1",
+      "ISOLINUX.CFG;1",
+      "ISOLINUX.TXT;1",
+      "SPLASH.RLE;1"
+    ],
+    "version_1_identifiers": 11,
+    "identifiers_without_version_1_suffix": [
+      "AUDIO",
+      "BOOT",
+      "DATA",
+      "ISOLINUX"
+    ],
+    "nonordinary_flags": [],
+    "both_endian_record_mismatches": [],
+    "issues": []
+  },
+  "limits": [
+    "This checks the descriptor sequence, PVD field contents/padding/timestamps/reserved regions, all directory record duplicated numeric fields, both path tables, and exact reconstructed directory identity/extent/extended-attribute agreement. It does not establish provenance or examine arbitrary file payloads for steganography."
+  ]
+}

@@ -1,0 +1,2 @@
+MKI Thu Jan  3 23:19:55 2013
+3.00 -o output.iso -b boot/isolinux/isolinux.bin -c boot/isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table NewCDR/

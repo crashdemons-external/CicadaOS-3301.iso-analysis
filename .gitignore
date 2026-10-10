@@ -1,0 +1,4 @@
+# Keep the original input and any ISO copies out of Git.
+*.[iI][sS][oO]
+__pycache__/
+*.py[cod]

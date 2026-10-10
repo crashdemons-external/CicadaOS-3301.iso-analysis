@@ -1,0 +1,9 @@
+# Linux bzImage boot-header and checksum baseline
+
+Static inspection of the extracted kernel data only; no kernel execution. Its measured size is 2,491,968 bytes, SHA-256 `a2f225176f932803295f7c031a7d4965e5dec398e0081d1982e6d0d36591ee37`.
+
+The header reports `setup_sects=26`, so the setup plus boot sector spans `(26+1)×512 = 13,824` bytes. `syssize=154,884` paragraphs (`0x25d04`) represents 2,478,144 bytes, exactly the remaining image size after setup. `payload_offset=0x62` is relative to protected-mode code, and `payload_length=0x258e11` bytes. Therefore the gzip member starts at absolute offset `13,824+98 = 13,922` and ends at byte-exclusive offset 2,475,123. The declared member reaches gzip EOF with no unused or unconsumed bytes and decompresses to 4,941,256 bytes. The remaining 16,845 bytes are image remainder after the declared compressed payload.
+
+Checksum cross-check: Python `zlib.crc32` over all bytes except the final four gives `0x7e49b23e`; its bitwise complement is `0x81b64dc1`, exactly the little-endian final word `c1 4d b6 81`. Python `zlib.crc32` over the complete image is `0xffffffff`, equivalent to zero in the no-final-XOR CRC accumulator used by the historical builder. This agrees with Linux v3.0 `arch/x86/boot/tools/build.c`, which initializes the accumulator to `0xffffffff`, processes setup and kernel bytes plus padding, and writes the resulting `u32` little-endian. Linux v3.0 `Documentation/x86/boot.txt` describes the CRC-32 polynomial/initial remainder, appended checksum, and zero residue. See the preserved sources and hashes in [boot-baseline/README.md](boot-baseline/README.md) and [source-manifest.json](boot-baseline/source-manifest.json).
+
+This is a format/construction consistency check. It does not authenticate the kernel's provenance or establish that the upstream v3.0 builder produced this exact image.

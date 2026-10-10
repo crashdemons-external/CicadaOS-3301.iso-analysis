@@ -1,0 +1,230 @@
+{
+  "input": "C:\\Users\\crash\\OneDrive\\Desktop\\liber-primus\\archives\\3301.iso",
+  "size": 136398848,
+  "md5": "74062dee4093c6ca0340cda23f0e994b",
+  "sha1": "df433cba87644b35cbc47f702a02e2b58d90af6a",
+  "sha256": "784643558799dd8bb3e172f31df6d6ca2f397fd61cb8fc371bf930f1e5ae6b7f",
+  "descriptors": [
+    {
+      "sector": 16,
+      "type": 1,
+      "sha256": "c0e6df204caaec3839d41678357a8d62a89e83b5907d6ab4fe406331d7a55ce8"
+    },
+    {
+      "sector": 17,
+      "type": 0,
+      "sha256": "21bafb2854339a9c2df6b2b2f164355a53f7511b2265f020c7dec09842806b27"
+    },
+    {
+      "sector": 18,
+      "type": 255,
+      "sha256": "b2bc5412294f3980b59f3db09e5e5edbc85a6e4e6c1f6f4c2bf47f098f2ad0f6"
+    }
+  ],
+  "pvd_volume_size": 136398848,
+  "system_id": "LINUX",
+  "volume_id": "CDROM",
+  "application_id": "MKISOFS ISO 9660/HFS FILESYSTEM BUILDER & CDRECORD CD-R/DVD CREATOR (C) 1993 E.YOUNGDALE (C) 1997 J.PEARSON/J.SCHILLING",
+  "timestamps_raw": [
+    "32303133303130333233313935353030ec",
+    "32303133303130333233313935353030ec",
+    "3030303030303030303030303030303000",
+    "32303133303130333233313935353030ec"
+  ],
+  "boot_catalog_lba": 29,
+  "allocated_ranges": [
+    [
+      0,
+      38912,
+      "system-area-and-volume-descriptors"
+    ],
+    [
+      40960,
+      41024,
+      "path-table-L"
+    ],
+    [
+      45056,
+      45120,
+      "path-table-M"
+    ],
+    [
+      49152,
+      51200,
+      "directory:"
+    ],
+    [
+      51200,
+      53248,
+      "directory:AUDIO"
+    ],
+    [
+      53248,
+      55296,
+      "directory:DATA"
+    ],
+    [
+      55296,
+      57344,
+      "directory:BOOT"
+    ],
+    [
+      57344,
+      59392,
+      "directory:BOOT/ISOLINUX"
+    ],
+    [
+      59392,
+      61440,
+      "file:BOOT/ISOLINUX/BOOT.CAT"
+    ],
+    [
+      61440,
+      75776,
+      "file:BOOT/ISOLINUX/ISOLINUX.BIN"
+    ],
+    [
+      75776,
+      4086508,
+      "file:AUDIO/761.MP3"
+    ],
+    [
+      4087808,
+      122906619,
+      "file:DATA/560.13"
+    ],
+    [
+      122906624,
+      124090435,
+      "file:DATA/560.17"
+    ],
+    [
+      124092416,
+      128085386,
+      "file:DATA/_560.00"
+    ],
+    [
+      128086016,
+      133580790,
+      "file:BOOT/3301.IMG"
+    ],
+    [
+      133580800,
+      136072768,
+      "file:BOOT/VMLINUZ."
+    ],
+    [
+      136073216,
+      136073430,
+      "file:BOOT/ISOLINUX/ISOLINUX.CFG"
+    ],
+    [
+      136075264,
+      136075276,
+      "file:BOOT/ISOLINUX/ISOLINUX.TXT"
+    ],
+    [
+      136077312,
+      136091432,
+      "file:BOOT/ISOLINUX/SPLASH.RLE"
+    ]
+  ],
+  "gaps": [
+    {
+      "start": 38912,
+      "end": 40960,
+      "size": 2048,
+      "nonzero": 162,
+      "sha256": "5ab11a9f154c3cf4c688214a571db3bfa3b3dfd0b3e4ddbb76f7e2cc09d68dcf",
+      "first_nonzero": 38912
+    },
+    {
+      "start": 41024,
+      "end": 45056,
+      "size": 4032,
+      "nonzero": 0,
+      "sha256": "782972264d2f448a7741cb6afbc10275ffde7e1d3f5f9005fd45543a7c2b81b5",
+      "first_nonzero": null
+    },
+    {
+      "start": 45120,
+      "end": 49152,
+      "size": 4032,
+      "nonzero": 0,
+      "sha256": "782972264d2f448a7741cb6afbc10275ffde7e1d3f5f9005fd45543a7c2b81b5",
+      "first_nonzero": null
+    },
+    {
+      "start": 4086508,
+      "end": 4087808,
+      "size": 1300,
+      "nonzero": 0,
+      "sha256": "2555bb5583cd7eecea012833776c74683ce3479d1c1553733366905bc820ea83",
+      "first_nonzero": null
+    },
+    {
+      "start": 122906619,
+      "end": 122906624,
+      "size": 5,
+      "nonzero": 0,
+      "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4",
+      "first_nonzero": null
+    },
+    {
+      "start": 124090435,
+      "end": 124092416,
+      "size": 1981,
+      "nonzero": 0,
+      "sha256": "aac7cc9d70b020c6344c0fba3356c961371e81de40ce8320cc248cf46d3999f6",
+      "first_nonzero": null
+    },
+    {
+      "start": 128085386,
+      "end": 128086016,
+      "size": 630,
+      "nonzero": 0,
+      "sha256": "e8195f8e18c1f0602bab8831ed7a652b2e58628df6b28024d379ab83579a4516",
+      "first_nonzero": null
+    },
+    {
+      "start": 133580790,
+      "end": 133580800,
+      "size": 10,
+      "nonzero": 0,
+      "sha256": "01d448afd928065458cf670b60f5a594d735af0172c8d67f22a81680132681ca",
+      "first_nonzero": null
+    },
+    {
+      "start": 136072768,
+      "end": 136073216,
+      "size": 448,
+      "nonzero": 0,
+      "sha256": "5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61",
+      "first_nonzero": null
+    },
+    {
+      "start": 136073430,
+      "end": 136075264,
+      "size": 1834,
+      "nonzero": 0,
+      "sha256": "a7b9f08b315fa96a01c6b407cb50226599223edef12560b95f792155444e63a4",
+      "first_nonzero": null
+    },
+    {
+      "start": 136075276,
+      "end": 136077312,
+      "size": 2036,
+      "nonzero": 0,
+      "sha256": "b6683fd69085a16114995642b15e455b80329e36a5a991d0844059bcb8065755",
+      "first_nonzero": null
+    },
+    {
+      "start": 136091432,
+      "end": 136398848,
+      "size": 307416,
+      "nonzero": 0,
+      "sha256": "b21f03aca4ee19f128545530d41d3e0dcef32e7aa0bbebecabe0d3870f7de945"
+    }
+  ],
+  "system_area_nonzero": 0
+}

@@ -1,0 +1,317 @@
+{
+  "iso_copies": [
+    {
+      "path": "archives/3301.iso",
+      "size": 136398848,
+      "sha256": "784643558799dd8bb3e172f31df6d6ca2f397fd61cb8fc371bf930f1e5ae6b7f",
+      "matches_input": true
+    },
+    {
+      "path": "archives/archive1/2013/02/3301.iso",
+      "size": 136398848,
+      "sha256": "784643558799dd8bb3e172f31df6d6ca2f397fd61cb8fc371bf930f1e5ae6b7f",
+      "matches_input": true
+    },
+    {
+      "path": "archives/archive2/assets/2013/3301",
+      "size": 137,
+      "sha256": "b1a807478f8784b5ea1f80b8848f7bfd1b4801f97f8058f0d891fe8eba76261e",
+      "matches_input": false,
+      "lfs_pointer": "version https://git-lfs.github.com/spec/v1\r\noid sha256:784643558799dd8bb3e172f31df6d6ca2f397fd61cb8fc371bf930f1e5ae6b7f\r\nsize 136398848\r\n",
+      "pointer_matches_input": true
+    },
+    {
+      "path": "archives/archive3/assets/2013/3301",
+      "size": 136398848,
+      "sha256": "784643558799dd8bb3e172f31df6d6ca2f397fd61cb8fc371bf930f1e5ae6b7f",
+      "matches_input": true
+    }
+  ],
+  "volume_creation": {
+    "local_iso_metadata": "2013-01-03T23:19:55-05:00",
+    "utc": "2013-01-04T04:19:55+00:00",
+    "caveat": "Builder-supplied timestamp/timezone; not proof of creator location or authorship."
+  },
+  "false_openpgp_magic": {
+    "first_octet": "0x96",
+    "old_packet_tag": 5,
+    "length_type": 2,
+    "declared_packet_body_length": 2394795858,
+    "available_bytes_after_header": 118818806,
+    "body_version_octet": 103,
+    "valid_complete_openpgp_key": false,
+    "reason": "The accidental old-format tag-5 header declares more bytes than exist and the body starts with an invalid key version. A magic-byte match does not make this a secret key."
+  },
+  "builder_sector": {
+    "offset": 38912,
+    "printable_strings": [
+      "MKI Thu Jan  3 23:19:55 2013",
+      "3.00 -o output.iso -b boot/isolinux/isolinux.bin -c boot/isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table NewCDR/"
+    ],
+    "nonzero": 162,
+    "sha256": "5ab11a9f154c3cf4c688214a571db3bfa3b3dfd0b3e4ddbb76f7e2cc09d68dcf"
+  },
+  "el_torito": {
+    "validation_checksum_mod_65536": 0,
+    "platform": 0,
+    "validation_key_hex": "55aa",
+    "bootable": true,
+    "media_type": 0,
+    "load_segment": 0,
+    "load_512_byte_sectors": 4,
+    "boot_image_lba": 30,
+    "bootloader_info_table": {
+      "pvd_lba": 16,
+      "boot_lba": 30,
+      "bootloader_length": 14336,
+      "checksum": 1633136854
+    },
+    "loader_strings": [
+      "ISOLINUX 3.82 2009-06-09 ",
+      " Copyright (C) 1994-2009 H. Peter Anvin et al"
+    ]
+  },
+  "initramfs_gzip_header": {
+    "magic": "1f8b08",
+    "method": 8,
+    "flags": 0,
+    "mtime_unix": 1357273113,
+    "extra_flags": 0,
+    "os_byte": 3,
+    "trailer_crc32": 611374579,
+    "trailer_isize": 8324608
+  },
+  "kernel": {
+    "size": 2491968,
+    "sha256": "a2f225176f932803295f7c031a7d4965e5dec398e0081d1982e6d0d36591ee37",
+    "gzip_offsets": [
+      13922
+    ],
+    "boot_header_magic": "HdrS",
+    "setup_sectors": 26,
+    "early_version_strings": [
+      "3.0.21-tinycore (root@box) #3021 SMP Sat Feb 18 11:54:11 EET 2012"
+    ],
+    "decompressed_size": 4941256,
+    "decompressed_sha256": "167258cc1c9256328b04d5f0401e037b05f1fa0883a02fcd09375857b2ceb9eb",
+    "gzip_member_size": 2461201,
+    "bytes_after_gzip": 16845,
+    "nonzero_after_gzip": 14400,
+    "after_gzip_hex": "0031c08dbb40d025008d8b7860260029f9c1e902f3ab8d9320d025008d8b34d0250039ca7307011a83c204ebf58dab0020d9ff5568118e25008d8362000000508d8340d025005056e8a427000083c41431dbffe5005589e553e8000000005b81c34f4100",
+    "elf_machine": 3,
+    "elf_entry": 1048576,
+    "after_gzip_artifact": "output/iso-audit/kernel-after-gzip.bin",
+    "after_gzip_caveat": "Nonzero bytes in the bzImage boot wrapper are not evidence of a hidden payload. No upstream stock-kernel byte comparison was performed.",
+    "elf_sections": [
+      {
+        "name": "",
+        "type": 0,
+        "offset": 0,
+        "size": 0,
+        "flags": 0
+      },
+      {
+        "name": ".text",
+        "type": 1,
+        "offset": 4096,
+        "size": 3244859,
+        "flags": 6
+      },
+      {
+        "name": ".notes",
+        "type": 7,
+        "offset": 3248956,
+        "size": 36,
+        "flags": 6
+      },
+      {
+        "name": "__ex_table",
+        "type": 1,
+        "offset": 3248992,
+        "size": 3600,
+        "flags": 2
+      },
+      {
+        "name": ".rodata",
+        "type": 1,
+        "offset": 3256320,
+        "size": 711776,
+        "flags": 2
+      },
+      {
+        "name": "__bug_table",
+        "type": 1,
+        "offset": 3968096,
+        "size": 22068,
+        "flags": 2
+      },
+      {
+        "name": ".pci_fixup",
+        "type": 1,
+        "offset": 3990164,
+        "size": 3072,
+        "flags": 2
+      },
+      {
+        "name": ".builtin_fw",
+        "type": 1,
+        "offset": 3993236,
+        "size": 204,
+        "flags": 2
+      },
+      {
+        "name": "__ksymtab",
+        "type": 1,
+        "offset": 3993440,
+        "size": 26816,
+        "flags": 2
+      },
+      {
+        "name": "__ksymtab_gpl",
+        "type": 1,
+        "offset": 4020256,
+        "size": 16320,
+        "flags": 2
+      },
+      {
+        "name": "__ksymtab_strings",
+        "type": 1,
+        "offset": 4036576,
+        "size": 97707,
+        "flags": 2
+      },
+      {
+        "name": "__init_rodata",
+        "type": 1,
+        "offset": 4134284,
+        "size": 15728,
+        "flags": 2
+      },
+      {
+        "name": "__param",
+        "type": 1,
+        "offset": 4150012,
+        "size": 3616,
+        "flags": 2
+      },
+      {
+        "name": "__modver",
+        "type": 1,
+        "offset": 4153628,
+        "size": 3812,
+        "flags": 2
+      },
+      {
+        "name": ".data",
+        "type": 1,
+        "offset": 4157440,
+        "size": 323136,
+        "flags": 3
+      },
+      {
+        "name": ".init.text",
+        "type": 1,
+        "offset": 4481024,
+        "size": 173681,
+        "flags": 6
+      },
+      {
+        "name": ".init.data",
+        "type": 1,
+        "offset": 4654720,
+        "size": 212652,
+        "flags": 3
+      },
+      {
+        "name": ".x86_trampoline",
+        "type": 1,
+        "offset": 4870144,
+        "size": 12600,
+        "flags": 2
+      },
+      {
+        "name": ".x86_cpu_dev.init",
+        "type": 1,
+        "offset": 4882744,
+        "size": 28,
+        "flags": 2
+      },
+      {
+        "name": ".parainstructions",
+        "type": 1,
+        "offset": 4882776,
+        "size": 7024,
+        "flags": 2
+      },
+      {
+        "name": ".altinstructions",
+        "type": 1,
+        "offset": 4889800,
+        "size": 3744,
+        "flags": 2
+      },
+      {
+        "name": ".altinstr_replacement",
+        "type": 1,
+        "offset": 4893544,
+        "size": 1013,
+        "flags": 6
+      },
+      {
+        "name": ".apicdrivers",
+        "type": 1,
+        "offset": 4894560,
+        "size": 4,
+        "flags": 3
+      },
+      {
+        "name": ".exit.text",
+        "type": 1,
+        "offset": 4894568,
+        "size": 5511,
+        "flags": 6
+      },
+      {
+        "name": ".data..percpu",
+        "type": 1,
+        "offset": 4902912,
+        "size": 24128,
+        "flags": 3
+      },
+      {
+        "name": ".smp_locks",
+        "type": 1,
+        "offset": 4927488,
+        "size": 12288,
+        "flags": 2
+      },
+      {
+        "name": ".bss",
+        "type": 8,
+        "offset": 4939776,
+        "size": 364544,
+        "flags": 3
+      },
+      {
+        "name": ".brk",
+        "type": 8,
+        "offset": 4939776,
+        "size": 1179648,
+        "flags": 3
+      },
+      {
+        "name": ".shstrtab",
+        "type": 3,
+        "offset": 4939776,
+        "size": 317,
+        "flags": 0
+      }
+    ],
+    "elf_bytes_after_sections": 0,
+    "elf_nonzero_after_sections": 0,
+    "version_strings": [
+      "Linux version 3.0.21-tinycore (root@box) (gcc version 4.6.1 (GCC) ) #3021 SMP Sat Feb 18 11:54:11 EET 2012"
+    ],
+    "ikconfig_start_offset": -1
+  }
+}

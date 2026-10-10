@@ -1,0 +1,146 @@
+{
+  "scope": "Read-only final output consistency and independent archive-parser checks; no ISO code execution.",
+  "checks": {
+    "source_sha256_unchanged": true,
+    "source_size": true,
+    "regular_count": true,
+    "extracted_hashes_match_manifest": true,
+    "no_extra_extracted_regular_files": true,
+    "signature_valid": true,
+    "signature_independent_rsa_valid": true,
+    "seven_successful_phone_reproductions_two_bad_transcriptions": true,
+    "png_container_closes": true,
+    "audio_frames_and_crcs": true,
+    "loader_matches_official_baseline_outside_mastering_table": true,
+    "boot_pointers_length_and_checksum": true,
+    "kernel_header_and_payload_bounds": true,
+    "directory_records_and_allocations": true,
+    "descriptor_duplicate_fields_and_path_tables": true,
+    "descriptor_unused_bytes_and_namespaces": true,
+    "gzip_and_deflate_padding": true,
+    "ignored_bit_detection_selfchecks": true,
+    "cpio_framing_and_names": true,
+    "json_artifacts_parse": true,
+    "analysis_script_syntax": true,
+    "report_local_links_resolve": true,
+    "all_11_files_match_independent_7zip_reader": true,
+    "independent_7zip_iso_test": true,
+    "independent_7zip_cpio_test": true
+  },
+  "all_checks_pass": true,
+  "bad_extracted_files": [],
+  "broken_links": [],
+  "json_artifacts_checked": 26,
+  "scripts_syntax_checked": 20,
+  "native_archive_tests": {
+    "iso": {
+      "returncode": 0,
+      "log": "7zip-iso-test.txt"
+    },
+    "cpio": {
+      "returncode": 0,
+      "log": "7zip-cpio-test.txt"
+    }
+  },
+  "independent_iso_file_streams": [
+    {
+      "path": "AUDIO/761.MP3",
+      "seven_zip_selector": "AUDIO/761.MP3",
+      "returncode": 0,
+      "bytes": 4010732,
+      "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "BOOT/3301.IMG",
+      "seven_zip_selector": "BOOT/3301.IMG",
+      "returncode": 0,
+      "bytes": 5494774,
+      "sha256": "3fcbb8abaf9d876985e8122e94f60b306a06401ec95b743d52da2e2324a37f42",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "BOOT/ISOLINUX/BOOT.CAT",
+      "seven_zip_selector": "BOOT/ISOLINUX/BOOT.CAT",
+      "returncode": 0,
+      "bytes": 2048,
+      "sha256": "701a655ebab064a167b83869757ea8840bf9154aad8e24de9da8e4e9ab9d872c",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "BOOT/ISOLINUX/ISOLINUX.BIN",
+      "seven_zip_selector": "BOOT/ISOLINUX/ISOLINUX.BIN",
+      "returncode": 0,
+      "bytes": 14336,
+      "sha256": "f50b009e829e91e3a8e241eeb5724ca02607596d0e80289cd43cc61b69835b17",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "BOOT/ISOLINUX/ISOLINUX.CFG",
+      "seven_zip_selector": "BOOT/ISOLINUX/ISOLINUX.CFG",
+      "returncode": 0,
+      "bytes": 214,
+      "sha256": "a8947d092a87b6827f133d8ac507303640e1bd83afd51b54acdefce4ae902cfb",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "BOOT/ISOLINUX/ISOLINUX.TXT",
+      "seven_zip_selector": "BOOT/ISOLINUX/ISOLINUX.TXT",
+      "returncode": 0,
+      "bytes": 12,
+      "sha256": "e6dd74e9ac4ca8623abdcde90e85639eeb2f1b46131e5ce824b851571fb7ad9a",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "BOOT/ISOLINUX/SPLASH.RLE",
+      "seven_zip_selector": "BOOT/ISOLINUX/SPLASH.RLE",
+      "returncode": 0,
+      "bytes": 14120,
+      "sha256": "fe97dde87c511c67b5d793caa062704b9ab782559c9f0af3799b152f2a822614",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "BOOT/VMLINUZ.",
+      "seven_zip_selector": "BOOT/VMLINUZ",
+      "returncode": 0,
+      "bytes": 2491968,
+      "sha256": "a2f225176f932803295f7c031a7d4965e5dec398e0081d1982e6d0d36591ee37",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "DATA/560.13",
+      "seven_zip_selector": "DATA/560.13",
+      "returncode": 0,
+      "bytes": 118818811,
+      "sha256": "db79072ce580efa54acf5f31f3ef0eb00aef867871a051d04e27ee5e7fbc112f",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "DATA/560.17",
+      "seven_zip_selector": "DATA/560.17",
+      "returncode": 0,
+      "bytes": 1183811,
+      "sha256": "d5676b1e01fd371cb13415b59b2eca4336e96f7bb05e789198b8d6baab580c19",
+      "matches": true,
+      "stderr": ""
+    },
+    {
+      "path": "DATA/_560.00",
+      "seven_zip_selector": "DATA/_560.00",
+      "returncode": 0,
+      "bytes": 3992970,
+      "sha256": "a24051a87f0eb25ca21accbd3158fdf7b4911243e5ee1b9778b81182f0d36573",
+      "matches": true,
+      "stderr": ""
+    }
+  ]
+}

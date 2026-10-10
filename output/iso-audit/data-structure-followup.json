@@ -1,0 +1,2245 @@
+{
+  "scope": "Static XOR reconstruction and bounded signature validation of extracted data only; no code execution.",
+  "reconstruction": {
+    "data13_size": 118818811,
+    "audio_size": 4010732,
+    "twitter_size": 64167,
+    "data13_xor_audio_size": 4010732,
+    "data13_xor_audio_sha256": "ce64a5b61b1dadbc59391e6750d82a02438453afd1ead8089731d1f3cf54bf94",
+    "reconstructed_prefix_size": 64167,
+    "reconstructed_prefix_sha256": "2900e6373be641456e015991ed662b2f81d409f16dd5bc314b9e38e416a12364",
+    "matches_archived_b64_after_removing_cr": true,
+    "saved_prefix": "output\\iso-audit\\data13-audio-twitter-prefix.bin",
+    "saved_data13_audio_xor": "output\\iso-audit\\data13-audio-xor.bin"
+  },
+  "structured_region": {
+    "separator_offset": 20709,
+    "separator_line_start": 20709,
+    "separator_line_end_exclusive": 20785,
+    "base64_encoded_bytes_without_linefeeds": 20440,
+    "base64_decoded_size": 15330,
+    "png_matches_archived_decoded_png": true,
+    "png_ihdr_dimensions": [
+      521,
+      523
+    ],
+    "pattern_start_offset": 20786,
+    "pattern_region_with_linefeeds_size": 43381,
+    "pattern_region_logical_size": 42818,
+    "pattern_matches_archived_only_pattern_without_linebreaks": true,
+    "pattern_motif": "33010",
+    "initial_periodic_bytes": 42818,
+    "first_motif_deviation_offset": null,
+    "pattern_tail_ascii": "30103301033010330103301033010330"
+  },
+  "beyond_twitter_extent": {
+    "start_offset": 64167,
+    "end_offset_exclusive": 4010732,
+    "available_bytes": 3946565,
+    "phase_checks": [
+      {
+        "phase": 0,
+        "consecutive_match_bytes": 0,
+        "first_deviation_absolute_offset": 64167,
+        "observed_at_start_hex": "4c274017624ab5a91aa68cd2516be367"
+      },
+      {
+        "phase": 1,
+        "consecutive_match_bytes": 0,
+        "first_deviation_absolute_offset": 64167,
+        "observed_at_start_hex": "4c274017624ab5a91aa68cd2516be367"
+      },
+      {
+        "phase": 2,
+        "consecutive_match_bytes": 0,
+        "first_deviation_absolute_offset": 64167,
+        "observed_at_start_hex": "4c274017624ab5a91aa68cd2516be367"
+      },
+      {
+        "phase": 3,
+        "consecutive_match_bytes": 0,
+        "first_deviation_absolute_offset": 64167,
+        "observed_at_start_hex": "4c274017624ab5a91aa68cd2516be367"
+      },
+      {
+        "phase": 4,
+        "consecutive_match_bytes": 0,
+        "first_deviation_absolute_offset": 64167,
+        "observed_at_start_hex": "4c274017624ab5a91aa68cd2516be367"
+      }
+    ],
+    "ascii_3301_count_in_tail": 0,
+    "exact_16_byte_pattern_occurrences_in_tail": 0
+  },
+  "data_file_signature_scan": {
+    "_560.00": {
+      "file_size": 3992970,
+      "signature_offsets": {
+        "png": [],
+        "gzip": [],
+        "zip": [],
+        "pdf": [],
+        "elf": [],
+        "bzip2": [],
+        "xz": [],
+        "sqlite": [],
+        "7z": [],
+        "rar": [],
+        "gif87a": [],
+        "gif89a": [],
+        "riff_webp": []
+      },
+      "png_validation": [],
+      "gzip_validation": [],
+      "bzip2_validation": [],
+      "zlib_candidate_offsets_checked": [
+        7750,
+        30209,
+        31571,
+        32931,
+        73409,
+        79277,
+        92598,
+        147625,
+        157986,
+        161791,
+        164347,
+        168041,
+        207046,
+        216962,
+        226998,
+        228510,
+        236114,
+        242792,
+        278913,
+        290300,
+        319190,
+        322325,
+        338379,
+        396723,
+        417080,
+        443906,
+        457006,
+        463913,
+        484586,
+        494387,
+        508538,
+        510669,
+        521712,
+        587638,
+        590076,
+        599088,
+        664751,
+        666795,
+        712711,
+        717262,
+        734783,
+        735455,
+        741670,
+        759821,
+        803951,
+        828518,
+        884009,
+        904396,
+        976622,
+        982311,
+        983205,
+        998700,
+        1017220,
+        1025920,
+        1042840,
+        1071146,
+        1083316,
+        1089477,
+        1115250,
+        1116837,
+        1124283,
+        1132697,
+        1137669,
+        1144226,
+        1146111,
+        1149342,
+        1161100,
+        1162154,
+        1173852,
+        1189874,
+        1251122,
+        1253462,
+        1260990,
+        1279776,
+        1282381,
+        1311580,
+        1350202,
+        1352016,
+        1353800,
+        1379250,
+        1390069,
+        1416889,
+        1470751,
+        1496049,
+        1506079,
+        1516519,
+        1528281,
+        1538032,
+        1549252,
+        1556656,
+        1558559,
+        1559049,
+        1571808,
+        1582872,
+        1589082,
+        1701879,
+        1709905,
+        1712825,
+        1720860,
+        1741753,
+        1780123,
+        1780834,
+        1787486,
+        1794789,
+        1802615,
+        1827681,
+        1878718,
+        1949948,
+        1954451,
+        1968975,
+        2004146,
+        2005881,
+        2016195,
+        2017480,
+        2036791,
+        2045989,
+        2051047,
+        2051743,
+        2076975,
+        2138385,
+        2172181,
+        2172854,
+        2198202,
+        2203235,
+        2209965,
+        2257901,
+        2262784,
+        2296553
+      ],
+      "zlib_validations": [
+        {
+          "offset": 7750,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 30209,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 31571,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 32931,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 73409,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 79277,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 92598,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 147625,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 157986,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 161791,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 164347,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 168041,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 207046,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 216962,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 226998,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 228510,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 236114,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 242792,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 278913,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 290300,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 319190,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 322325,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 338379,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 396723,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 417080,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 443906,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 457006,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 463913,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 484586,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 494387,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 508538,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 510669,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 521712,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 587638,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 590076,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 599088,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 664751,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 666795,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 712711,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance code"
+        },
+        {
+          "offset": 717262,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 734783,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 735455,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 741670,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 759821,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 803951,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 828518,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 884009,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 904396,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 976622,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 982311,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 983205,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 998700,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1017220,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1025920,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1042840,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1071146,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1083316,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid literal/length code"
+        },
+        {
+          "offset": 1089477,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1115250,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1116837,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1124283,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1132697,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1137669,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1144226,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1146111,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1149342,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 1161100,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1162154,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1173852,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1189874,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1251122,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 1253462,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1260990,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1279776,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1282381,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1311580,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1350202,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1352016,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1353800,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1379250,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1390069,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1416889,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1470751,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1496049,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1506079,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1516519,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1528281,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1538032,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1549252,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1556656,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1558559,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1559049,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 1571808,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1582872,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1589082,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1701879,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 1709905,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance code"
+        },
+        {
+          "offset": 1712825,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance code"
+        },
+        {
+          "offset": 1720860,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1741753,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1780123,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1780834,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1787486,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1794789,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1802615,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1827681,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1878718,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1949948,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1954451,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1968975,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 2004146,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 2005881,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2016195,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2017480,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2036791,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 2045989,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 2051047,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2051743,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 2076975,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 2138385,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2172181,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2172854,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2198202,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2203235,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2209965,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 2257901,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2262784,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 2296553,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        }
+      ]
+    },
+    "560.13": {
+      "file_size": 118818811,
+      "signature_offsets": {
+        "png": [],
+        "gzip": [
+          16477947,
+          39871448,
+          44360071,
+          51411354,
+          67702259,
+          80828214,
+          104261106,
+          106272725,
+          118164742
+        ],
+        "zip": [],
+        "pdf": [],
+        "elf": [],
+        "bzip2": [
+          36514303,
+          44600650,
+          45959926,
+          46885512,
+          52348604,
+          58127924,
+          83246997,
+          91800221,
+          100902231
+        ],
+        "xz": [],
+        "sqlite": [],
+        "7z": [],
+        "rar": [],
+        "gif87a": [],
+        "gif89a": [],
+        "riff_webp": []
+      },
+      "png_validation": [],
+      "gzip_validation": [
+        {
+          "offset": 16477947,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 39871448,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 44360071,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 51411354,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 67702259,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 80828214,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 104261106,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 106272725,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        },
+        {
+          "offset": 118164742,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        }
+      ],
+      "bzip2_validation": [
+        {
+          "offset": 36514303,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 44600650,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 45959926,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 46885512,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 52348604,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 58127924,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 83246997,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 91800221,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        },
+        {
+          "offset": 100902231,
+          "valid": false,
+          "reason": "invalid_block_size_byte"
+        }
+      ],
+      "zlib_candidate_offsets_checked": [
+        11265,
+        28440,
+        31444,
+        55233,
+        74844,
+        95313,
+        103995,
+        108131,
+        154378,
+        163061,
+        165039,
+        208839,
+        211309,
+        214522,
+        217015,
+        222064,
+        266930,
+        279603,
+        279899,
+        292566,
+        306068,
+        313040,
+        345334,
+        346247,
+        348480,
+        369544,
+        389454,
+        405868,
+        440537,
+        450498,
+        468970,
+        480249,
+        574037,
+        613311,
+        627343,
+        631515,
+        689655,
+        696331,
+        733505,
+        734278,
+        762569,
+        768038,
+        777575,
+        778733,
+        787483,
+        806883,
+        820356,
+        837341,
+        842265,
+        857022,
+        867308,
+        872458,
+        887089,
+        899548,
+        913321,
+        939650,
+        944340,
+        945873,
+        948381,
+        974542,
+        983259,
+        990324,
+        1007544,
+        1034954,
+        1035201,
+        1048992,
+        1049238,
+        1068859,
+        1077266,
+        1087835,
+        1091997,
+        1117974,
+        1130253,
+        1132930,
+        1140166,
+        1168796,
+        1209739,
+        1285102,
+        1299687,
+        1322518,
+        1323172,
+        1326709,
+        1328414,
+        1335647,
+        1366661,
+        1390650,
+        1392343,
+        1411908,
+        1415641,
+        1479080,
+        1497305,
+        1497948,
+        1499188,
+        1501094,
+        1510476,
+        1539302,
+        1573251,
+        1585455,
+        1593300,
+        1617161,
+        1633936,
+        1650526,
+        1650613,
+        1651426,
+        1680965,
+        1692022,
+        1693790,
+        1699590,
+        1710655,
+        1711606,
+        1750010,
+        1754109,
+        1808037,
+        1809009,
+        1815741,
+        1832624,
+        1839001,
+        1843448,
+        1871779,
+        1875953,
+        1881512,
+        1939737,
+        1951670,
+        1956071,
+        1961425,
+        1963123,
+        1974813,
+        1983194
+      ],
+      "zlib_validations": [
+        {
+          "offset": 11265,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 28440,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 31444,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 55233,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 74844,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 95313,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 103995,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 108131,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 154378,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 163061,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 165039,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 208839,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 211309,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 214522,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 217015,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 222064,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 266930,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 279603,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 279899,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: incorrect data check"
+        },
+        {
+          "offset": 292566,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 306068,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 313040,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 345334,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 346247,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 348480,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 369544,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 389454,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 405868,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 440537,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 450498,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 468970,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 480249,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 574037,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 613311,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 627343,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 631515,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 689655,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 696331,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 733505,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 734278,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 762569,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 768038,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 777575,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 778733,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 787483,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 806883,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 820356,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 837341,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 842265,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance code"
+        },
+        {
+          "offset": 857022,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 867308,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 872458,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 887089,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 899548,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 913321,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 939650,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 944340,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 945873,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 948381,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 974542,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 983259,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 990324,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1007544,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid literal/length code"
+        },
+        {
+          "offset": 1034954,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1035201,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1048992,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1049238,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1068859,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1077266,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1087835,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1091997,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1117974,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1130253,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1132930,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1140166,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1168796,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1209739,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1285102,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1299687,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1322518,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1323172,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1326709,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1328414,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1335647,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1366661,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1390650,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1392343,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1411908,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1415641,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1479080,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1497305,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1497948,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1499188,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1501094,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 1510476,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1539302,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1573251,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1585455,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1593300,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1617161,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1633936,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1650526,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1650613,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1651426,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1680965,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1692022,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1693790,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1699590,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1710655,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 1711606,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 1750010,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1754109,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1808037,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1809009,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1815741,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1832624,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1839001,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1843448,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1871779,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1875953,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1881512,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1939737,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1951670,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1956071,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1961425,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1963123,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1974813,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1983194,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        }
+      ]
+    },
+    "560.17": {
+      "file_size": 1183811,
+      "signature_offsets": {
+        "png": [],
+        "gzip": [
+          576029
+        ],
+        "zip": [],
+        "pdf": [],
+        "elf": [],
+        "bzip2": [],
+        "xz": [],
+        "sqlite": [],
+        "7z": [],
+        "rar": [],
+        "gif87a": [],
+        "gif89a": [],
+        "riff_webp": []
+      },
+      "png_validation": [],
+      "gzip_validation": [
+        {
+          "offset": 576029,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: unknown header flags set"
+        }
+      ],
+      "bzip2_validation": [],
+      "zlib_candidate_offsets_checked": [
+        7894,
+        77018,
+        103854,
+        108849,
+        113358,
+        128453,
+        131155,
+        147538,
+        153994,
+        163875,
+        165114,
+        165259,
+        176854,
+        200997,
+        219488,
+        232929,
+        260872,
+        263245,
+        266721,
+        268452,
+        321013,
+        324487,
+        330987,
+        333727,
+        385561,
+        408175,
+        415807,
+        425873,
+        429210,
+        489582,
+        492868,
+        502609,
+        507432,
+        573100,
+        592691,
+        604727,
+        652406,
+        706100,
+        708745,
+        711252,
+        721135,
+        723078,
+        725906,
+        735316,
+        755162,
+        773964,
+        780523,
+        788066,
+        829707,
+        845077,
+        854515,
+        873078,
+        878442,
+        892129,
+        911695,
+        964042,
+        994613,
+        1000637,
+        1018092,
+        1043125,
+        1045596,
+        1061689,
+        1063252,
+        1066139,
+        1067141,
+        1093961,
+        1109903,
+        1117002,
+        1119922,
+        1130693,
+        1132496,
+        1167422,
+        1172412
+      ],
+      "zlib_validations": [
+        {
+          "offset": 7894,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 77018,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 103854,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 108849,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 113358,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 128453,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance code"
+        },
+        {
+          "offset": 131155,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 147538,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 153994,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 163875,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 165114,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 165259,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 176854,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 200997,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 219488,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: too many length or distance symbols"
+        },
+        {
+          "offset": 232929,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 260872,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 263245,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 266721,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 268452,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 321013,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 324487,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 330987,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 333727,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 385561,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 408175,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 415807,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 425873,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 429210,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 489582,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 492868,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 502609,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 507432,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 573100,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 592691,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 604727,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 652406,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 706100,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 708745,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 711252,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 721135,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 723078,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 725906,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 735316,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 755162,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 773964,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 780523,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 788066,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 829707,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 845077,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 854515,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 873078,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 878442,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 892129,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 911695,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 964042,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 994613,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1000637,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1018092,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1043125,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1045596,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1061689,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1063252,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1066139,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1067141,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance too far back"
+        },
+        {
+          "offset": 1093961,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1109903,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid code lengths set"
+        },
+        {
+          "offset": 1117002,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1119922,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1130693,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        },
+        {
+          "offset": 1132496,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid distance code"
+        },
+        {
+          "offset": 1167422,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid stored block lengths"
+        },
+        {
+          "offset": 1172412,
+          "valid": false,
+          "reason": "Error -3 while decompressing data: invalid block type"
+        }
+      ]
+    }
+  }
+}

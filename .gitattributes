@@ -1,0 +1,4 @@
+# Preserve evidence bytes without line-ending normalization.
+* -text
+output/iso-audit/iso-files/DATA/560.13 filter=lfs diff=lfs merge=lfs -text
+output/iso-audit/audio-spectral-data.npz filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,70 @@
+{
+  "gematria": {
+    "size": 64167,
+    "sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+    "exact_archived_match": true
+  },
+  "triple_xor": {
+    "size": 64167,
+    "base64_before_delimiter_size": 20708,
+    "delimiter_offset": 20709,
+    "tail_pattern_values": [
+      10,
+      45,
+      48,
+      49,
+      51
+    ]
+  },
+  "png": {
+    "size": 15330,
+    "sha256": "a771856f794e923c7d876a95482e1a600da994659da18fbd1f10fde4936c3edb",
+    "exact_archived_match": true,
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "size": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "bKGD",
+        "size": 2,
+        "crc_valid": true
+      },
+      {
+        "offset": 47,
+        "type": "pHYs",
+        "size": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 68,
+        "type": "tIME",
+        "size": 7,
+        "crc_valid": true
+      },
+      {
+        "offset": 87,
+        "type": "IDAT",
+        "size": 8192,
+        "crc_valid": true
+      },
+      {
+        "offset": 8291,
+        "type": "IDAT",
+        "size": 7015,
+        "crc_valid": true
+      },
+      {
+        "offset": 15318,
+        "type": "IEND",
+        "size": 0,
+        "crc_valid": true
+      }
+    ],
+    "bytes_after_iend": 0
+  },
+  "caveat": "Reproduction of documented historical artifacts, not a newly solved puzzle. No OutGuess extractor was run; archived OutGuess content was reviewed as secondary derived evidence."
+}

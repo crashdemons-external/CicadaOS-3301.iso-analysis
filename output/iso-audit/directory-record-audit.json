@@ -1,0 +1,2058 @@
+{
+  "scope": "Raw ISO 9660 primary directory record parsing; image read only, never mounted or executed.",
+  "volume": {
+    "iso_sha256": "784643558799dd8bb3e172f31df6d6ca2f397fd61cb8fc371bf930f1e5ae6b7f",
+    "iso_size": 136398848,
+    "sector_size": 2048,
+    "volume_space_size": {
+      "le": 66601,
+      "be": 66601,
+      "raw_hex": "2904010000010429"
+    },
+    "volume_set_size": {
+      "le": 1,
+      "be": 1,
+      "raw_hex": "01000001"
+    },
+    "volume_sequence": {
+      "le": 1,
+      "be": 1,
+      "raw_hex": "01000001"
+    },
+    "logical_block_size": {
+      "le": 2048,
+      "be": 2048,
+      "raw_hex": "00080800"
+    },
+    "path_table_size": {
+      "le": 64,
+      "be": 64,
+      "raw_hex": "4000000000000040"
+    },
+    "l_path_table_location": 20,
+    "optional_l_path_table_location": 0,
+    "m_path_table_location": 22,
+    "optional_m_path_table_location": 0,
+    "root_record": {
+      "absolute_offset": 32924,
+      "record_length": 34,
+      "xar_length": 0,
+      "extent": {
+        "le": 24,
+        "be": 24,
+        "raw_hex": "1800000000000018"
+      },
+      "data_length": {
+        "le": 2048,
+        "be": 2048,
+        "raw_hex": "0008000000000800"
+      },
+      "recording_date_raw": "710102062a10ec",
+      "recording_date_parts": {
+        "year": 2013,
+        "month": 1,
+        "day": 2,
+        "hour": 6,
+        "minute": 42,
+        "second": 16,
+        "timezone_quarters_signed": -20
+      },
+      "recording_date_valid": true,
+      "flags": 2,
+      "flag_bits": {
+        "hidden": false,
+        "directory": true,
+        "associated": false,
+        "record_format": false,
+        "permissions": false,
+        "multi_extent": false
+      },
+      "file_unit_size": 0,
+      "interleave_gap_size": 0,
+      "volume_sequence": {
+        "le": 1,
+        "be": 1,
+        "raw_hex": "01000001"
+      },
+      "file_identifier_length": 1,
+      "identifier_bytes_hex": "00",
+      "identifier": ".",
+      "padding_length": 0,
+      "padding_hex": "",
+      "system_use_length": 0,
+      "system_use_hex": "",
+      "identifier_layout_valid": true,
+      "system_use_prefix_ascii": ""
+    },
+    "descriptors": [
+      {
+        "sector": 16,
+        "type": 1,
+        "version": 1,
+        "identifier": "CDROM"
+      },
+      {
+        "sector": 17,
+        "type": 0,
+        "version": 1,
+        "identifier": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      },
+      {
+        "sector": 18,
+        "type": 255,
+        "version": 1,
+        "identifier": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      }
+    ]
+  },
+  "directory_count": 5,
+  "record_count": 25,
+  "directory_records": [
+    {
+      "path": "/",
+      "extent_lba": 24,
+      "xar_length": 0,
+      "data_length": 2048,
+      "absolute_data_offset": 49152,
+      "records": [
+        {
+          "absolute_offset": 49152,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 24,
+            "be": 24,
+            "raw_hex": "1800000000000018"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710102062a10ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 2,
+            "hour": 6,
+            "minute": 42,
+            "second": 16,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "00",
+          "identifier": ".",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/",
+          "directory_offset": 0
+        },
+        {
+          "absolute_offset": 49186,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 24,
+            "be": 24,
+            "raw_hex": "1800000000000018"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710102062a10ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 2,
+            "hour": 6,
+            "minute": 42,
+            "second": 16,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "01",
+          "identifier": "..",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/",
+          "directory_offset": 34
+        },
+        {
+          "absolute_offset": 49220,
+          "record_length": 38,
+          "xar_length": 0,
+          "extent": {
+            "le": 25,
+            "be": 25,
+            "raw_hex": "1900000000000019"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710103161d1aec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 22,
+            "minute": 29,
+            "second": 26,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 5,
+          "identifier_bytes_hex": "415544494f",
+          "identifier": "AUDIO",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/",
+          "directory_offset": 68
+        },
+        {
+          "absolute_offset": 49258,
+          "record_length": 38,
+          "xar_length": 0,
+          "extent": {
+            "le": 27,
+            "be": 27,
+            "raw_hex": "1b0000000000001b"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "700c18011f31ec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 24,
+            "hour": 1,
+            "minute": 31,
+            "second": 49,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 4,
+          "identifier_bytes_hex": "424f4f54",
+          "identifier": "BOOT",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/",
+          "directory_offset": 106
+        },
+        {
+          "absolute_offset": 49296,
+          "record_length": 38,
+          "xar_length": 0,
+          "extent": {
+            "le": 26,
+            "be": 26,
+            "raw_hex": "1a0000000000001a"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710103171330ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 23,
+            "minute": 19,
+            "second": 48,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 4,
+          "identifier_bytes_hex": "44415441",
+          "identifier": "DATA",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/",
+          "directory_offset": 144
+        }
+      ],
+      "sector_zero_tails": [
+        {
+          "directory_offset": 182,
+          "absolute_offset": 49334,
+          "length_to_sector_end": 1866,
+          "all_zero": true,
+          "nonzero_offsets_relative_to_tail": [],
+          "nonzero_hex_prefix": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "directory_slack": {
+        "absolute_offset": 51200,
+        "length": 0,
+        "all_zero": true,
+        "hex_prefix": ""
+      },
+      "unparsed_spans": []
+    },
+    {
+      "path": "/AUDIO",
+      "extent_lba": 25,
+      "xar_length": 0,
+      "data_length": 2048,
+      "absolute_data_offset": 51200,
+      "records": [
+        {
+          "absolute_offset": 51200,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 25,
+            "be": 25,
+            "raw_hex": "1900000000000019"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710103161d1aec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 22,
+            "minute": 29,
+            "second": 26,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "00",
+          "identifier": ".",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/AUDIO",
+          "directory_offset": 0
+        },
+        {
+          "absolute_offset": 51234,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 24,
+            "be": 24,
+            "raw_hex": "1800000000000018"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710102062a10ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 2,
+            "hour": 6,
+            "minute": 42,
+            "second": 16,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "01",
+          "identifier": "..",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/AUDIO",
+          "directory_offset": 34
+        },
+        {
+          "absolute_offset": 51268,
+          "record_length": 42,
+          "xar_length": 0,
+          "extent": {
+            "le": 37,
+            "be": 37,
+            "raw_hex": "2500000000000025"
+          },
+          "data_length": {
+            "le": 4010732,
+            "be": 4010732,
+            "raw_hex": "ec323d00003d32ec"
+          },
+          "recording_date_raw": "710103161d1aec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 22,
+            "minute": 29,
+            "second": 26,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 9,
+          "identifier_bytes_hex": "3736312e4d50333b31",
+          "identifier": "761.MP3;1",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/AUDIO",
+          "directory_offset": 68
+        }
+      ],
+      "sector_zero_tails": [
+        {
+          "directory_offset": 110,
+          "absolute_offset": 51310,
+          "length_to_sector_end": 1938,
+          "all_zero": true,
+          "nonzero_offsets_relative_to_tail": [],
+          "nonzero_hex_prefix": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "directory_slack": {
+        "absolute_offset": 53248,
+        "length": 0,
+        "all_zero": true,
+        "hex_prefix": ""
+      },
+      "unparsed_spans": []
+    },
+    {
+      "path": "/BOOT",
+      "extent_lba": 27,
+      "xar_length": 0,
+      "data_length": 2048,
+      "absolute_data_offset": 55296,
+      "records": [
+        {
+          "absolute_offset": 55296,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 27,
+            "be": 27,
+            "raw_hex": "1b0000000000001b"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "700c18011f31ec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 24,
+            "hour": 1,
+            "minute": 31,
+            "second": 49,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "00",
+          "identifier": ".",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT",
+          "directory_offset": 0
+        },
+        {
+          "absolute_offset": 55330,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 24,
+            "be": 24,
+            "raw_hex": "1800000000000018"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710102062a10ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 2,
+            "hour": 6,
+            "minute": 42,
+            "second": 16,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "01",
+          "identifier": "..",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT",
+          "directory_offset": 34
+        },
+        {
+          "absolute_offset": 55364,
+          "record_length": 44,
+          "xar_length": 0,
+          "extent": {
+            "le": 62542,
+            "be": 62542,
+            "raw_hex": "4ef400000000f44e"
+          },
+          "data_length": {
+            "le": 5494774,
+            "be": 5494774,
+            "raw_hex": "f6d753000053d7f6"
+          },
+          "recording_date_raw": "710103171225ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 23,
+            "minute": 18,
+            "second": 37,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 10,
+          "identifier_bytes_hex": "333330312e494d473b31",
+          "identifier": "3301.IMG;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT",
+          "directory_offset": 68
+        },
+        {
+          "absolute_offset": 55408,
+          "record_length": 42,
+          "xar_length": 0,
+          "extent": {
+            "le": 28,
+            "be": 28,
+            "raw_hex": "1c0000000000001c"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "700c1d12330bec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 29,
+            "hour": 18,
+            "minute": 51,
+            "second": 11,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 8,
+          "identifier_bytes_hex": "49534f4c494e5558",
+          "identifier": "ISOLINUX",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT",
+          "directory_offset": 112
+        },
+        {
+          "absolute_offset": 55450,
+          "record_length": 44,
+          "xar_length": 0,
+          "extent": {
+            "le": 65225,
+            "be": 65225,
+            "raw_hex": "c9fe00000000fec9"
+          },
+          "data_length": {
+            "le": 2491968,
+            "be": 2491968,
+            "raw_hex": "4006260000260640"
+          },
+          "recording_date_raw": "700c18011f31ec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 24,
+            "hour": 1,
+            "minute": 31,
+            "second": 49,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 10,
+          "identifier_bytes_hex": "564d4c494e555a2e3b31",
+          "identifier": "VMLINUZ.;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT",
+          "directory_offset": 154
+        }
+      ],
+      "sector_zero_tails": [
+        {
+          "directory_offset": 198,
+          "absolute_offset": 55494,
+          "length_to_sector_end": 1850,
+          "all_zero": true,
+          "nonzero_offsets_relative_to_tail": [],
+          "nonzero_hex_prefix": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "directory_slack": {
+        "absolute_offset": 57344,
+        "length": 0,
+        "all_zero": true,
+        "hex_prefix": ""
+      },
+      "unparsed_spans": []
+    },
+    {
+      "path": "/BOOT/ISOLINUX",
+      "extent_lba": 28,
+      "xar_length": 0,
+      "data_length": 2048,
+      "absolute_data_offset": 57344,
+      "records": [
+        {
+          "absolute_offset": 57344,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 28,
+            "be": 28,
+            "raw_hex": "1c0000000000001c"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "700c1d12330bec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 29,
+            "hour": 18,
+            "minute": 51,
+            "second": 11,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "00",
+          "identifier": ".",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT/ISOLINUX",
+          "directory_offset": 0
+        },
+        {
+          "absolute_offset": 57378,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 27,
+            "be": 27,
+            "raw_hex": "1b0000000000001b"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "700c18011f31ec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 24,
+            "hour": 1,
+            "minute": 31,
+            "second": 49,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "01",
+          "identifier": "..",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT/ISOLINUX",
+          "directory_offset": 34
+        },
+        {
+          "absolute_offset": 57412,
+          "record_length": 44,
+          "xar_length": 0,
+          "extent": {
+            "le": 29,
+            "be": 29,
+            "raw_hex": "1d0000000000001d"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710103171337ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 23,
+            "minute": 19,
+            "second": 55,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 10,
+          "identifier_bytes_hex": "424f4f542e4341543b31",
+          "identifier": "BOOT.CAT;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT/ISOLINUX",
+          "directory_offset": 68
+        },
+        {
+          "absolute_offset": 57456,
+          "record_length": 48,
+          "xar_length": 0,
+          "extent": {
+            "le": 30,
+            "be": 30,
+            "raw_hex": "1e0000000000001e"
+          },
+          "data_length": {
+            "le": 14336,
+            "be": 14336,
+            "raw_hex": "0038000000003800"
+          },
+          "recording_date_raw": "710103171228ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 23,
+            "minute": 18,
+            "second": 40,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 14,
+          "identifier_bytes_hex": "49534f4c494e55582e42494e3b31",
+          "identifier": "ISOLINUX.BIN;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT/ISOLINUX",
+          "directory_offset": 112
+        },
+        {
+          "absolute_offset": 57504,
+          "record_length": 48,
+          "xar_length": 0,
+          "extent": {
+            "le": 66442,
+            "be": 66442,
+            "raw_hex": "8a0301000001038a"
+          },
+          "data_length": {
+            "le": 214,
+            "be": 214,
+            "raw_hex": "d6000000000000d6"
+          },
+          "recording_date_raw": "700c18011f31ec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 24,
+            "hour": 1,
+            "minute": 31,
+            "second": 49,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 14,
+          "identifier_bytes_hex": "49534f4c494e55582e4346473b31",
+          "identifier": "ISOLINUX.CFG;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT/ISOLINUX",
+          "directory_offset": 160
+        },
+        {
+          "absolute_offset": 57552,
+          "record_length": 48,
+          "xar_length": 0,
+          "extent": {
+            "le": 66443,
+            "be": 66443,
+            "raw_hex": "8b0301000001038b"
+          },
+          "data_length": {
+            "le": 12,
+            "be": 12,
+            "raw_hex": "0c0000000000000c"
+          },
+          "recording_date_raw": "700c18011f31ec",
+          "recording_date_parts": {
+            "year": 2012,
+            "month": 12,
+            "day": 24,
+            "hour": 1,
+            "minute": 31,
+            "second": 49,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 14,
+          "identifier_bytes_hex": "49534f4c494e55582e5458543b31",
+          "identifier": "ISOLINUX.TXT;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT/ISOLINUX",
+          "directory_offset": 208
+        },
+        {
+          "absolute_offset": 57600,
+          "record_length": 46,
+          "xar_length": 0,
+          "extent": {
+            "le": 66444,
+            "be": 66444,
+            "raw_hex": "8c0301000001038c"
+          },
+          "data_length": {
+            "le": 14120,
+            "be": 14120,
+            "raw_hex": "2837000000003728"
+          },
+          "recording_date_raw": "710102120d12ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 2,
+            "hour": 18,
+            "minute": 13,
+            "second": 18,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 12,
+          "identifier_bytes_hex": "53504c4153482e524c453b31",
+          "identifier": "SPLASH.RLE;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/BOOT/ISOLINUX",
+          "directory_offset": 256
+        }
+      ],
+      "sector_zero_tails": [
+        {
+          "directory_offset": 302,
+          "absolute_offset": 57646,
+          "length_to_sector_end": 1746,
+          "all_zero": true,
+          "nonzero_offsets_relative_to_tail": [],
+          "nonzero_hex_prefix": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "directory_slack": {
+        "absolute_offset": 59392,
+        "length": 0,
+        "all_zero": true,
+        "hex_prefix": ""
+      },
+      "unparsed_spans": []
+    },
+    {
+      "path": "/DATA",
+      "extent_lba": 26,
+      "xar_length": 0,
+      "data_length": 2048,
+      "absolute_data_offset": 53248,
+      "records": [
+        {
+          "absolute_offset": 53248,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 26,
+            "be": 26,
+            "raw_hex": "1a0000000000001a"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710103171330ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 23,
+            "minute": 19,
+            "second": 48,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "00",
+          "identifier": ".",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/DATA",
+          "directory_offset": 0
+        },
+        {
+          "absolute_offset": 53282,
+          "record_length": 34,
+          "xar_length": 0,
+          "extent": {
+            "le": 24,
+            "be": 24,
+            "raw_hex": "1800000000000018"
+          },
+          "data_length": {
+            "le": 2048,
+            "be": 2048,
+            "raw_hex": "0008000000000800"
+          },
+          "recording_date_raw": "710102062a10ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 2,
+            "hour": 6,
+            "minute": 42,
+            "second": 16,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 2,
+          "flag_bits": {
+            "hidden": false,
+            "directory": true,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 1,
+          "identifier_bytes_hex": "01",
+          "identifier": "..",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/DATA",
+          "directory_offset": 34
+        },
+        {
+          "absolute_offset": 53316,
+          "record_length": 42,
+          "xar_length": 0,
+          "extent": {
+            "le": 1996,
+            "be": 1996,
+            "raw_hex": "cc070000000007cc"
+          },
+          "data_length": {
+            "le": 118818811,
+            "be": 118818811,
+            "raw_hex": "fb071507071507fb"
+          },
+          "recording_date_raw": "710103170e39ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 23,
+            "minute": 14,
+            "second": 57,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 8,
+          "identifier_bytes_hex": "3536302e31333b31",
+          "identifier": "560.13;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/DATA",
+          "directory_offset": 68
+        },
+        {
+          "absolute_offset": 53358,
+          "record_length": 42,
+          "xar_length": 0,
+          "extent": {
+            "le": 60013,
+            "be": 60013,
+            "raw_hex": "6dea00000000ea6d"
+          },
+          "data_length": {
+            "le": 1183811,
+            "be": 1183811,
+            "raw_hex": "4310120000121043"
+          },
+          "recording_date_raw": "71010214160aec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 2,
+            "hour": 20,
+            "minute": 22,
+            "second": 10,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 8,
+          "identifier_bytes_hex": "3536302e31373b31",
+          "identifier": "560.17;1",
+          "padding_length": 1,
+          "padding_hex": "00",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/DATA",
+          "directory_offset": 110
+        },
+        {
+          "absolute_offset": 53400,
+          "record_length": 42,
+          "xar_length": 0,
+          "extent": {
+            "le": 60592,
+            "be": 60592,
+            "raw_hex": "b0ec00000000ecb0"
+          },
+          "data_length": {
+            "le": 3992970,
+            "be": 3992970,
+            "raw_hex": "8aed3c00003ced8a"
+          },
+          "recording_date_raw": "710103171320ec",
+          "recording_date_parts": {
+            "year": 2013,
+            "month": 1,
+            "day": 3,
+            "hour": 23,
+            "minute": 19,
+            "second": 32,
+            "timezone_quarters_signed": -20
+          },
+          "recording_date_valid": true,
+          "flags": 0,
+          "flag_bits": {
+            "hidden": false,
+            "directory": false,
+            "associated": false,
+            "record_format": false,
+            "permissions": false,
+            "multi_extent": false
+          },
+          "file_unit_size": 0,
+          "interleave_gap_size": 0,
+          "volume_sequence": {
+            "le": 1,
+            "be": 1,
+            "raw_hex": "01000001"
+          },
+          "file_identifier_length": 9,
+          "identifier_bytes_hex": "5f3536302e30303b31",
+          "identifier": "_560.00;1",
+          "padding_length": 0,
+          "padding_hex": "",
+          "system_use_length": 0,
+          "system_use_hex": "",
+          "identifier_layout_valid": true,
+          "system_use_prefix_ascii": "",
+          "directory_path": "/DATA",
+          "directory_offset": 152
+        }
+      ],
+      "sector_zero_tails": [
+        {
+          "directory_offset": 194,
+          "absolute_offset": 53442,
+          "length_to_sector_end": 1854,
+          "all_zero": true,
+          "nonzero_offsets_relative_to_tail": [],
+          "nonzero_hex_prefix": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "directory_slack": {
+        "absolute_offset": 55296,
+        "length": 0,
+        "all_zero": true,
+        "hex_prefix": ""
+      },
+      "unparsed_spans": []
+    }
+  ],
+  "path_tables": {
+    "L": {
+      "lba": 20,
+      "entries": [
+        {
+          "index": 1,
+          "offset": 0,
+          "name_hex": "00",
+          "name": ".",
+          "xar_length": 0,
+          "extent_lba": 24,
+          "parent_directory_number": 1,
+          "padding_hex": "00"
+        },
+        {
+          "index": 2,
+          "offset": 10,
+          "name_hex": "415544494f",
+          "name": "AUDIO",
+          "xar_length": 0,
+          "extent_lba": 25,
+          "parent_directory_number": 1,
+          "padding_hex": "00"
+        },
+        {
+          "index": 3,
+          "offset": 24,
+          "name_hex": "424f4f54",
+          "name": "BOOT",
+          "xar_length": 0,
+          "extent_lba": 27,
+          "parent_directory_number": 1,
+          "padding_hex": ""
+        },
+        {
+          "index": 4,
+          "offset": 36,
+          "name_hex": "44415441",
+          "name": "DATA",
+          "xar_length": 0,
+          "extent_lba": 26,
+          "parent_directory_number": 1,
+          "padding_hex": ""
+        },
+        {
+          "index": 5,
+          "offset": 48,
+          "name_hex": "49534f4c494e5558",
+          "name": "ISOLINUX",
+          "xar_length": 0,
+          "extent_lba": 28,
+          "parent_directory_number": 3,
+          "padding_hex": ""
+        }
+      ],
+      "parse_error": null
+    },
+    "M": {
+      "lba": 22,
+      "entries": [
+        {
+          "index": 1,
+          "offset": 0,
+          "name_hex": "00",
+          "name": ".",
+          "xar_length": 0,
+          "extent_lba": 24,
+          "parent_directory_number": 1,
+          "padding_hex": "00"
+        },
+        {
+          "index": 2,
+          "offset": 10,
+          "name_hex": "415544494f",
+          "name": "AUDIO",
+          "xar_length": 0,
+          "extent_lba": 25,
+          "parent_directory_number": 1,
+          "padding_hex": "00"
+        },
+        {
+          "index": 3,
+          "offset": 24,
+          "name_hex": "424f4f54",
+          "name": "BOOT",
+          "xar_length": 0,
+          "extent_lba": 27,
+          "parent_directory_number": 1,
+          "padding_hex": ""
+        },
+        {
+          "index": 4,
+          "offset": 36,
+          "name_hex": "44415441",
+          "name": "DATA",
+          "xar_length": 0,
+          "extent_lba": 26,
+          "parent_directory_number": 1,
+          "padding_hex": ""
+        },
+        {
+          "index": 5,
+          "offset": 48,
+          "name_hex": "49534f4c494e5558",
+          "name": "ISOLINUX",
+          "xar_length": 0,
+          "extent_lba": 28,
+          "parent_directory_number": 3,
+          "padding_hex": ""
+        }
+      ],
+      "parse_error": null
+    },
+    "cross_checks": []
+  },
+  "allocation_extents": [
+    {
+      "path": "/",
+      "kind": "directory",
+      "start_lba": 24,
+      "end_lba_exclusive": 25,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "<volume-descriptor-sector-16>",
+      "kind": "volume_descriptor",
+      "start_lba": 16,
+      "end_lba_exclusive": 17,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "<volume-descriptor-sector-17>",
+      "kind": "volume_descriptor",
+      "start_lba": 17,
+      "end_lba_exclusive": 18,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "<volume-descriptor-sector-18>",
+      "kind": "volume_descriptor",
+      "start_lba": 18,
+      "end_lba_exclusive": 19,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "<L-path-table>",
+      "kind": "path_table",
+      "start_lba": 20,
+      "end_lba_exclusive": 21,
+      "xar_length": 0,
+      "data_length": 64,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "<M-path-table>",
+      "kind": "path_table",
+      "start_lba": 22,
+      "end_lba_exclusive": 23,
+      "xar_length": 0,
+      "data_length": 64,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/AUDIO",
+      "kind": "directory",
+      "start_lba": 25,
+      "end_lba_exclusive": 26,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT",
+      "kind": "directory",
+      "start_lba": 27,
+      "end_lba_exclusive": 28,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/DATA",
+      "kind": "directory",
+      "start_lba": 26,
+      "end_lba_exclusive": 27,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/AUDIO/761.MP3;1",
+      "kind": "file",
+      "start_lba": 37,
+      "end_lba_exclusive": 1996,
+      "xar_length": 0,
+      "data_length": 4010732,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/3301.IMG;1",
+      "kind": "file",
+      "start_lba": 62542,
+      "end_lba_exclusive": 65225,
+      "xar_length": 0,
+      "data_length": 5494774,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/ISOLINUX",
+      "kind": "directory",
+      "start_lba": 28,
+      "end_lba_exclusive": 29,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/VMLINUZ.;1",
+      "kind": "file",
+      "start_lba": 65225,
+      "end_lba_exclusive": 66442,
+      "xar_length": 0,
+      "data_length": 2491968,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/ISOLINUX/BOOT.CAT;1",
+      "kind": "file",
+      "start_lba": 29,
+      "end_lba_exclusive": 30,
+      "xar_length": 0,
+      "data_length": 2048,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/ISOLINUX/ISOLINUX.BIN;1",
+      "kind": "file",
+      "start_lba": 30,
+      "end_lba_exclusive": 37,
+      "xar_length": 0,
+      "data_length": 14336,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/ISOLINUX/ISOLINUX.CFG;1",
+      "kind": "file",
+      "start_lba": 66442,
+      "end_lba_exclusive": 66443,
+      "xar_length": 0,
+      "data_length": 214,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/ISOLINUX/ISOLINUX.TXT;1",
+      "kind": "file",
+      "start_lba": 66443,
+      "end_lba_exclusive": 66444,
+      "xar_length": 0,
+      "data_length": 12,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/BOOT/ISOLINUX/SPLASH.RLE;1",
+      "kind": "file",
+      "start_lba": 66444,
+      "end_lba_exclusive": 66451,
+      "xar_length": 0,
+      "data_length": 14120,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/DATA/560.13;1",
+      "kind": "file",
+      "start_lba": 1996,
+      "end_lba_exclusive": 60013,
+      "xar_length": 0,
+      "data_length": 118818811,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/DATA/560.17;1",
+      "kind": "file",
+      "start_lba": 60013,
+      "end_lba_exclusive": 60592,
+      "xar_length": 0,
+      "data_length": 1183811,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    },
+    {
+      "path": "/DATA/_560.00;1",
+      "kind": "file",
+      "start_lba": 60592,
+      "end_lba_exclusive": 62542,
+      "xar_length": 0,
+      "data_length": 3992970,
+      "file_unit_size": 0,
+      "interleave_gap_size": 0
+    }
+  ],
+  "file_sector_slack": [
+    {
+      "path": "/AUDIO/761.MP3;1",
+      "absolute_offset": 4086508,
+      "length": 1300,
+      "all_zero": true,
+      "sha256": "2555bb5583cd7eecea012833776c74683ce3479d1c1553733366905bc820ea83",
+      "hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "/BOOT/3301.IMG;1",
+      "absolute_offset": 133580790,
+      "length": 10,
+      "all_zero": true,
+      "sha256": "01d448afd928065458cf670b60f5a594d735af0172c8d67f22a81680132681ca",
+      "hex": "00000000000000000000"
+    },
+    {
+      "path": "/BOOT/VMLINUZ.;1",
+      "absolute_offset": 136072768,
+      "length": 448,
+      "all_zero": true,
+      "sha256": "5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61",
+      "hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "/BOOT/ISOLINUX/BOOT.CAT;1",
+      "absolute_offset": 61440,
+      "length": 0,
+      "all_zero": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hex": ""
+    },
+    {
+      "path": "/BOOT/ISOLINUX/ISOLINUX.BIN;1",
+      "absolute_offset": 75776,
+      "length": 0,
+      "all_zero": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hex": ""
+    },
+    {
+      "path": "/BOOT/ISOLINUX/ISOLINUX.CFG;1",
+      "absolute_offset": 136073430,
+      "length": 1834,
+      "all_zero": true,
+      "sha256": "a7b9f08b315fa96a01c6b407cb50226599223edef12560b95f792155444e63a4",
+      "hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "/BOOT/ISOLINUX/ISOLINUX.TXT;1",
+      "absolute_offset": 136075276,
+      "length": 2036,
+      "all_zero": true,
+      "sha256": "b6683fd69085a16114995642b15e455b80329e36a5a991d0844059bcb8065755",
+      "hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "/BOOT/ISOLINUX/SPLASH.RLE;1",
+      "absolute_offset": 136091432,
+      "length": 216,
+      "all_zero": true,
+      "sha256": "a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70",
+      "hex": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "/DATA/560.13;1",
+      "absolute_offset": 122906619,
+      "length": 5,
+      "all_zero": true,
+      "sha256": "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4",
+      "hex": "0000000000"
+    },
+    {
+      "path": "/DATA/560.17;1",
+      "absolute_offset": 124090435,
+      "length": 1981,
+      "all_zero": true,
+      "sha256": "aac7cc9d70b020c6344c0fba3356c961371e81de40ce8320cc248cf46d3999f6",
+      "hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "/DATA/_560.00;1",
+      "absolute_offset": 128085386,
+      "length": 630,
+      "all_zero": true,
+      "sha256": "e8195f8e18c1f0602bab8831ed7a652b2e58628df6b28024d379ab83579a4516",
+      "hex": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "name_checks": [
+    {
+      "path": "/",
+      "ordinary_dot_aliases": [
+        ".",
+        ".."
+      ],
+      "exact_duplicate_names": {},
+      "normalized_duplicate_names": {},
+      "normalization_policy": "ASCII uppercase, remove ISO ;version suffix, strip trailing period"
+    },
+    {
+      "path": "/AUDIO",
+      "ordinary_dot_aliases": [
+        ".",
+        ".."
+      ],
+      "exact_duplicate_names": {},
+      "normalized_duplicate_names": {},
+      "normalization_policy": "ASCII uppercase, remove ISO ;version suffix, strip trailing period"
+    },
+    {
+      "path": "/BOOT",
+      "ordinary_dot_aliases": [
+        ".",
+        ".."
+      ],
+      "exact_duplicate_names": {},
+      "normalized_duplicate_names": {},
+      "normalization_policy": "ASCII uppercase, remove ISO ;version suffix, strip trailing period"
+    },
+    {
+      "path": "/BOOT/ISOLINUX",
+      "ordinary_dot_aliases": [
+        ".",
+        ".."
+      ],
+      "exact_duplicate_names": {},
+      "normalized_duplicate_names": {},
+      "normalization_policy": "ASCII uppercase, remove ISO ;version suffix, strip trailing period"
+    },
+    {
+      "path": "/DATA",
+      "ordinary_dot_aliases": [
+        ".",
+        ".."
+      ],
+      "exact_duplicate_names": {},
+      "normalized_duplicate_names": {},
+      "normalization_policy": "ASCII uppercase, remove ISO ;version suffix, strip trailing period"
+    }
+  ],
+  "extent_collisions": [],
+  "anomalies": [],
+  "summary_counts": {
+    "sector_zero_tails": 5,
+    "nonzero_zero_tails": 0,
+    "system_use_records": 0,
+    "records_with_padding": 12,
+    "nonzero_padding_records": 0,
+    "xar_records": 0,
+    "interleaved_records": 0,
+    "multi_extent_records": 0,
+    "reserved_flag_records": 0,
+    "file_slack_nonzero": 0,
+    "extent_collisions": 0,
+    "flag_histogram": {
+      "0x0": 11,
+      "0x2": 14
+    },
+    "invalid_recording_dates": 0,
+    "nonprimary_volume_sequences": 0,
+    "anomalies": 0
+  }
+}

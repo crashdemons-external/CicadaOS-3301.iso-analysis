@@ -1,0 +1,876 @@
+{
+  "scope": "Static byte-level comparison of already extracted ISO files and archived 2013 artifacts. No code executed.",
+  "comparisons": [
+    {
+      "name": "_560.00",
+      "copies": [
+        {
+          "path": "output\\iso-audit\\iso-files\\DATA\\_560.00",
+          "size": 3992970,
+          "sha256": "a24051a87f0eb25ca21accbd3158fdf7b4911243e5ee1b9778b81182f0d36573"
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00",
+          "size": 3992970,
+          "sha256": "a24051a87f0eb25ca21accbd3158fdf7b4911243e5ee1b9778b81182f0d36573"
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00",
+          "size": 3992970,
+          "sha256": "a24051a87f0eb25ca21accbd3158fdf7b4911243e5ee1b9778b81182f0d36573"
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00",
+          "size": 3992970,
+          "sha256": "a24051a87f0eb25ca21accbd3158fdf7b4911243e5ee1b9778b81182f0d36573"
+        },
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\_560.00",
+          "size": 3992970,
+          "sha256": "a24051a87f0eb25ca21accbd3158fdf7b4911243e5ee1b9778b81182f0d36573"
+        }
+      ],
+      "all_byte_identical": true
+    },
+    {
+      "name": "560.13",
+      "copies": [
+        {
+          "path": "output\\iso-audit\\iso-files\\DATA\\560.13",
+          "size": 118818811,
+          "sha256": "db79072ce580efa54acf5f31f3ef0eb00aef867871a051d04e27ee5e7fbc112f"
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13",
+          "size": 137,
+          "sha256": "213d876bfaa6cff545ece9a9716d272203f7825304001bebac39918f8968bb3e"
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13",
+          "size": 137,
+          "sha256": "213d876bfaa6cff545ece9a9716d272203f7825304001bebac39918f8968bb3e"
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13",
+          "size": 118818811,
+          "sha256": "db79072ce580efa54acf5f31f3ef0eb00aef867871a051d04e27ee5e7fbc112f"
+        }
+      ],
+      "all_byte_identical": false
+    },
+    {
+      "name": "560.17",
+      "copies": [
+        {
+          "path": "output\\iso-audit\\iso-files\\DATA\\560.17",
+          "size": 1183811,
+          "sha256": "d5676b1e01fd371cb13415b59b2eca4336e96f7bb05e789198b8d6baab580c19"
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17",
+          "size": 1183811,
+          "sha256": "d5676b1e01fd371cb13415b59b2eca4336e96f7bb05e789198b8d6baab580c19"
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17",
+          "size": 1183811,
+          "sha256": "d5676b1e01fd371cb13415b59b2eca4336e96f7bb05e789198b8d6baab580c19"
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17",
+          "size": 1183811,
+          "sha256": "d5676b1e01fd371cb13415b59b2eca4336e96f7bb05e789198b8d6baab580c19"
+        },
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\560.17",
+          "size": 1183811,
+          "sha256": "d5676b1e01fd371cb13415b59b2eca4336e96f7bb05e789198b8d6baab580c19"
+        }
+      ],
+      "all_byte_identical": true
+    },
+    {
+      "name": "761.MP3",
+      "copies": [
+        {
+          "path": "output\\iso-audit\\iso-files\\AUDIO\\761.MP3",
+          "size": 4010732,
+          "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460"
+        },
+        {
+          "path": "archives\\archive1\\2013\\02\\761.MP3",
+          "size": 4010732,
+          "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460"
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\AUDIO\\761.MP3",
+          "size": 4010732,
+          "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460"
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\AUDIO\\761.MP3",
+          "size": 4010732,
+          "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460"
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\AUDIO\\761.MP3",
+          "size": 4010732,
+          "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460"
+        }
+      ],
+      "all_byte_identical": true
+    },
+    {
+      "name": "folly",
+      "copies": [
+        {
+          "path": "archives\\archive1\\2013\\02\\folly",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\tmp\\folly",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "output\\iso-audit\\rootfs\\tmp\\folly",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        }
+      ],
+      "all_byte_identical": true
+    },
+    {
+      "name": "wisdom",
+      "copies": [
+        {
+          "path": "archives\\archive1\\2013\\02\\wisdom",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\wisdom",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\archive2\\assets\\2013\\cicados\\tmp\\wisdom",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\archive3\\assets\\2013\\cicados\\tmp\\wisdom",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\tmp\\wisdom",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        },
+        {
+          "path": "output\\iso-audit\\rootfs\\tmp\\wisdom",
+          "size": 3368,
+          "sha256": "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+        }
+      ],
+      "all_byte_identical": true
+    }
+  ],
+  "checks": {
+    "iso_data_56013_vs_archive": {
+      "byte_identical": true,
+      "iso": {
+        "path": "output\\iso-audit\\iso-files\\DATA\\560.13",
+        "size": 118818811,
+        "sha256": "db79072ce580efa54acf5f31f3ef0eb00aef867871a051d04e27ee5e7fbc112f"
+      },
+      "archive": {
+        "path": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13",
+        "size": 118818811,
+        "sha256": "db79072ce580efa54acf5f31f3ef0eb00aef867871a051d04e27ee5e7fbc112f"
+      }
+    },
+    "iso_audio_vs_archive": {
+      "byte_identical": true,
+      "iso": {
+        "path": "output\\iso-audit\\iso-files\\AUDIO\\761.MP3",
+        "size": 4010732,
+        "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460"
+      },
+      "archive": {
+        "path": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\audio\\761.mp3",
+        "size": 4010732,
+        "sha256": "83008217439110c3b824898af73b99cb2cf0657dda88cb363c3aa34a4ec0a460"
+      }
+    },
+    "iso_56013_xor_iso_761_vs_saved_intermediate": {
+      "computed": {
+        "input_lengths": [
+          118818811,
+          4010732
+        ],
+        "xor_output_length": 4010732,
+        "truncated_to_shorter_input": true,
+        "xor_sha256": "ce64a5b61b1dadbc59391e6750d82a02438453afd1ead8089731d1f3cf54bf94"
+      },
+      "saved": {
+        "path": "archives\\neuroretransmit-cicada\\2013\\003-twitter\\560.13^761.mp3.bin",
+        "size": 4010732,
+        "sha256": "ce64a5b61b1dadbc59391e6750d82a02438453afd1ead8089731d1f3cf54bf94"
+      },
+      "byte_identical": true
+    },
+    "twitter_xor_audio_vs_gematria": {
+      "computed": {
+        "input_lengths": [
+          64167,
+          4010732
+        ],
+        "xor_output_length": 64167,
+        "truncated_to_shorter_input": true,
+        "xor_sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d"
+      },
+      "saved": {
+        "path": "archives\\neuroretransmit-cicada\\2013\\003-twitter\\gematria.jpg",
+        "size": 64167,
+        "sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d"
+      },
+      "byte_identical": true
+    },
+    "first_onion_clue_xor": {
+      "inputs": [
+        {
+          "path": "archives\\neuroretransmit-cicada\\2013\\004-first-onion\\clue.txt.bin",
+          "size": 978,
+          "sha256": "902660b6631940fee18b2f88080214d9a82473e2e120d996afdfb5d6d3a95ef0"
+        },
+        {
+          "path": "output\\iso-audit\\iso-files\\DATA\\_560.00",
+          "size": 3992970,
+          "sha256": "a24051a87f0eb25ca21accbd3158fdf7b4911243e5ee1b9778b81182f0d36573"
+        }
+      ],
+      "output": {
+        "path": "output\\iso-audit\\clue-xor.bin",
+        "size": 978,
+        "sha256": "30cfc34b53b4d1450fe4dbdacf5894f709e71ca6ba2859caefeba0ac65921253"
+      },
+      "matches_archived_asc_after_newline_normalization": true
+    },
+    "third_onion_offset_12821": {
+      "offset": 12821,
+      "ciphertext_hex": "28c07e1b102d4d5c4c1a376e064477e1416fcc94928765",
+      "plaintext_hex": "67627968377a6e6d366337657a736d722e6f6e696f6e0a",
+      "plaintext_ascii": "gbyh7znm6c7ezsmr.onion\n",
+      "saved": {
+        "path": "output\\iso-audit\\third-onion-offset-12821.bin",
+        "size": 23,
+        "sha256": "63371fe3b2de90bd4f3b92128cb5ff00708026ea0711914f5455ea8d8c1a00d7"
+      }
+    },
+    "folly_wisdom": {
+      "identical": true,
+      "lengths": [
+        3368,
+        3368
+      ],
+      "sha256": [
+        "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a",
+        "7e5ec097728197f5c0dba0729980565658fba486965809ffa25e3910a31c385a"
+      ],
+      "distinct_byte_values": 256,
+      "zero_bytes": 16,
+      "printable_ascii_bytes": 1272,
+      "first_64_hex": "bf53c0cc9f66938e8043e8c4be9f23287a8132c78557df211be05010dba2fd526d6076f379a00f91161797d5b9e6e4012d35894949686dd0db2c409b92f42f21"
+    }
+  },
+  "rev_relationships": [
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\560.13",
+      "sizes": [
+        137,
+        118818811
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13",
+      "sizes": [
+        137,
+        137
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13",
+      "sizes": [
+        137,
+        137
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13",
+      "sizes": [
+        137,
+        118818811
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive1\\2013\\02\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\560.13",
+      "sizes": [
+        137,
+        118818811
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13",
+      "sizes": [
+        137,
+        137
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13",
+      "sizes": [
+        137,
+        137
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13",
+      "sizes": [
+        137,
+        118818811
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive1\\2013\\02\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\560.13",
+      "sizes": [
+        118818811,
+        118818811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.13",
+      "sizes": [
+        118818811,
+        137
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.13",
+      "sizes": [
+        118818811,
+        137
+      ],
+      "literal_reverse": false,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.13",
+      "sizes": [
+        118818811,
+        118818811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\560.17.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\560.17",
+      "sizes": [
+        1183811,
+        1183811
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "output\\iso-audit\\iso-files\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\DATA\\_560.00.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\3301-contents\\data\\_560.00",
+      "sizes": [
+        3992970,
+        3992970
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive1\\2013\\02\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive2\\2013\\additional files\\Cicada OS\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive2\\assets\\2013\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    },
+    {
+      "rev": "archives\\archive3\\assets\\2013\\cicados\\tmp\\folly.rev",
+      "candidate": "archives\\neuroretransmit-cicada\\2013\\002-3301\\rootfs-contents\\tmp\\folly",
+      "sizes": [
+        3368,
+        3368
+      ],
+      "literal_reverse": true,
+      "identical": false
+    }
+  ]
+}

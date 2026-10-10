@@ -1,0 +1,97 @@
+{
+  "scope": "Provenance research for Tiny Core Linux 4.7.2 baseline; no distro binary downloaded, unpacked, or executed.",
+  "local_evidence": [
+    {
+      "path": "output/iso-audit/rootfs/usr/share/doc/tc/release.txt",
+      "observation": "Extracted rootfs identifies release as 4.7.2."
+    },
+    {
+      "path": "output/iso-audit/rootfs/lib/modules/3.0.21-tinycore",
+      "observation": "Extracted module tree identifies kernel release 3.0.21-tinycore."
+    },
+    {
+      "path": "output/iso-audit/rootfs-manifest.json",
+      "observation": "Cpio manifest is the source of current extracted-rootfs paths and hashes."
+    }
+  ],
+  "authoritative_sources": [
+    {
+      "url": "https://forum.tinycorelinux.net/index.php?topic=27321.0",
+      "kind": "official Tiny Core Linux forum; administrator notice",
+      "evidence": "Administrator Curaga announced 4.x repository removal at end of 2024 (2024-10-17) and confirmed \"4.x has been removed\" on 2025-01-03.",
+      "use": "Explains why historical 4.x directory paths are no longer available."
+    },
+    {
+      "url": "https://distro.ibiblio.org/tinycorelinux/corebook.pdf",
+      "kind": "official Tiny Core documentation hosted at project mirror",
+      "evidence": "Documents the 4.x release/distribution_files layout and names core.gz and vmlinuz as separate base files.",
+      "use": "Authoritative historical layout guidance; not a checksum or 4.7.2 byte source."
+    },
+    {
+      "url": "https://distro.ibiblio.org/tinycorelinux/downloads.html",
+      "kind": "official project download page",
+      "evidence": "Current archive listing covers 5.x onward; historical 4.x is absent, consistent with its announced removal.",
+      "use": "Current availability status only."
+    },
+    {
+      "url": "https://forum.tinycorelinux.net/index.php?topic=14575.0",
+      "kind": "official Tiny Core Linux forum; contemporaneous 4.7.2 user report",
+      "evidence": "Post dated 2012-12-27 describes using the 4.7.2 vmlinuz/core.gz pair.",
+      "use": "Corroborates that 4.7.2 used the normal kernel/initrd filenames; not an official checksum."
+    },
+    {
+      "url": "https://forum.tinycorelinux.net/index.php?topic=14394.0",
+      "kind": "official Tiny Core Linux forum; contemporaneous kernel discussion",
+      "evidence": "Post dated 2012-11-11 reports uname output `3.0.21-tinycore #3021`; reply states it is the stock Linux 3.0 kernel and points to the project source files.",
+      "use": "Corroborates historical kernel naming/build context; does not authenticate this ISO kernel bytes."
+    },
+    {
+      "url": "https://forum.tinycorelinux.net/index.php?topic=27148.0",
+      "kind": "official forum, mixed provenance",
+      "evidence": "Tiny Core forum participant DHeadshot says they placed a 4.x zip on Internet Archive after the administrator announced removal.",
+      "use": "A nonofficial mirror lead only. It was not downloaded or treated as authenticated baseline."
+    }
+  ],
+  "historical_official_locations": [
+    {
+      "url": "http://tinycorelinux.net/4.x/x86/archive/4.7.2/Core-4.7.2.iso",
+      "status": "not accessible; official host resolves to no DNS in shell attempt; browser could not access",
+      "provenance": "Exact URL was recorded in the local community wiki export, not located in an authenticated project checksum manifest."
+    },
+    {
+      "url": "http://tinycorelinux.net/4.x/x86/archive/4.7.2/",
+      "status": "not accessible after official 4.x removal",
+      "provenance": "Historical official project URL pattern, but contents not retrievable."
+    },
+    {
+      "url": "http://repo.tinycorelinux.net/4.x/x86/archive/4.7.2/",
+      "status": "not accessible; official host resolves to no DNS in shell attempt",
+      "provenance": "Historical official mirror namespace, but no listing or bytes retrievable."
+    },
+    {
+      "url": "https://distro.ibiblio.org/tinycorelinux/4.x/x86/release/distribution_files/",
+      "status": "browser fetch returned 404",
+      "provenance": "Official project mirror; current/historical route unavailable."
+    }
+  ],
+  "checksums": {
+    "authenticated_iso_sha256_or_sha1": "not found in located primary sources",
+    "authenticated_4.7.2_core_gz_or_vmlinuz_checksum": "not found in located primary sources",
+    "current_official_checksum_practice": "The official current distribution_files indexes publish adjacent .md5.txt files, but that does not supply a historical 4.7.2 digest."
+  },
+  "comparison": {
+    "baseline_bytes_obtained": false,
+    "rootfs_hash_comparison_performed": false,
+    "reason": "No authenticated 4.7.2 bytes or project-published checksum were reachable. The Internet Archive lead is a participant-provided archive rather than an authenticated official artifact; downloading it would not establish provenance."
+  },
+  "network_observations": {
+    "shell": "Invoke-WebRequest HEAD to historical tinycorelinux.net and repo.tinycorelinux.net URLs failed DNS resolution (No such host is known).",
+    "web": "Official Tiny Core forum pages were accessible; official 4.x directory endpoints were inaccessible or returned 404.",
+    "actions": "No binary was downloaded. No sandbox/network escalation was requested."
+  },
+  "caveats": [
+    "Forum posts from users are contemporaneous community evidence, not vendor-authenticated checksums.",
+    "The released Tiny Core base identifies the OS family/version and expected components; a matching version string alone does not prove byte-for-byte identity.",
+    "No inference about intentional file modifications should be made by comparing against a substitute version such as 4.7.7."
+  ]
+}

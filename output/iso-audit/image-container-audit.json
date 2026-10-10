@@ -1,0 +1,416 @@
+{
+  "png": {
+    "file": "output\\iso-audit\\cicada-reproduced.png",
+    "size_bytes": 15330,
+    "sha256": "a771856f794e923c7d876a95482e1a600da994659da18fbd1f10fde4936c3edb",
+    "format": "PNG",
+    "mode": "LA",
+    "dimensions": [
+      521,
+      523
+    ],
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc32": "c8a3c778",
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "bKGD",
+        "length": 2,
+        "crc32": "878fccbf",
+        "crc_valid": true
+      },
+      {
+        "offset": 47,
+        "type": "pHYs",
+        "length": 9,
+        "crc32": "009a9c18",
+        "crc_valid": true
+      },
+      {
+        "offset": 68,
+        "type": "tIME",
+        "length": 7,
+        "crc32": "30320c45",
+        "crc_valid": true
+      },
+      {
+        "offset": 87,
+        "type": "IDAT",
+        "length": 8192,
+        "crc32": "b62d7ea6",
+        "crc_valid": true
+      },
+      {
+        "offset": 8291,
+        "type": "IDAT",
+        "length": 7015,
+        "crc32": "27164529",
+        "crc_valid": true
+      },
+      {
+        "offset": 15318,
+        "type": "IEND",
+        "length": 0,
+        "crc32": "ae426082",
+        "crc_valid": true
+      }
+    ],
+    "all_chunk_crc_valid": true,
+    "bad_crc_types": [],
+    "png_metadata": {
+      "IHDR": {
+        "width": 521,
+        "height": 523,
+        "bit_depth": 8,
+        "color_type": 4,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "bKGD": {
+        "raw_hex": "00ff",
+        "length": 2
+      },
+      "pHYs": {
+        "pixels_per_unit_x": 2835,
+        "pixels_per_unit_y": 2835,
+        "unit": 1
+      },
+      "tIME": {
+        "year": 2012,
+        "month": 12,
+        "day": 31,
+        "hour": 23,
+        "minute": 37,
+        "second": 39
+      }
+    },
+    "idat": {
+      "compressed_bytes": 15207,
+      "sha256": "8c7d82aa50ebc6886517c9b264f640603ec0e1374f08ce6f1f46115f7f332a2c",
+      "zlib_eof": true,
+      "unused_data_bytes": 0,
+      "unused_data_hex": "",
+      "unconsumed_tail_bytes": 0,
+      "decompressed_bytes": 545489,
+      "expected_scanline_bytes": 545489,
+      "extra_decompressed_bytes": 0
+    },
+    "row_filter_counts": {
+      "1": 81,
+      "2": 392,
+      "4": 50
+    },
+    "pil_info": {
+      "dpi": "(72.009, 72.009)"
+    },
+    "planes": {
+      "L": {
+        "unique": 8,
+        "min": 0,
+        "max": 7,
+        "entropy_bits_per_pixel": 0.52872,
+        "lsb_ones": 8419,
+        "lsb_entropy": 0.19887
+      },
+      "A": {
+        "unique": 1,
+        "min": 255,
+        "max": 255,
+        "entropy_bits_per_pixel": -0.0,
+        "lsb_ones": 272483,
+        "lsb_entropy": -0.0
+      }
+    },
+    "trailing_after_iend_bytes": 0,
+    "trailing_hex": ""
+  },
+  "jpeg": {
+    "file": "output\\iso-audit\\gematria-reproduced.jpg",
+    "size_bytes": 64167,
+    "sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+    "format": "JPEG",
+    "mode": "RGB",
+    "dimensions": [
+      598,
+      842
+    ],
+    "segments": [
+      {
+        "marker": "FFE0",
+        "offset": 2,
+        "length": 16,
+        "payload_bytes": 14,
+        "prefix_hex": "4a46494600010100000100010000",
+        "payload_sha256": "1fb2a1c85b30a2d812c0c54aa6662cee809224a2ee52ff70bfe57604a3e7a2c8"
+      },
+      {
+        "marker": "FFDB",
+        "offset": 20,
+        "length": 67,
+        "payload_bytes": 65
+      },
+      {
+        "marker": "FFDB",
+        "offset": 89,
+        "length": 67,
+        "payload_bytes": 65
+      },
+      {
+        "marker": "FFC0",
+        "offset": 158,
+        "length": 17,
+        "payload_bytes": 15,
+        "sof": {
+          "precision": 8,
+          "height": 842,
+          "width": 598,
+          "components": 3
+        }
+      },
+      {
+        "marker": "FFC4",
+        "offset": 177,
+        "length": 31,
+        "payload_bytes": 29
+      },
+      {
+        "marker": "FFC4",
+        "offset": 210,
+        "length": 181,
+        "payload_bytes": 179
+      },
+      {
+        "marker": "FFC4",
+        "offset": 393,
+        "length": 31,
+        "payload_bytes": 29
+      },
+      {
+        "marker": "FFC4",
+        "offset": 426,
+        "length": 181,
+        "payload_bytes": 179
+      },
+      {
+        "marker": "FFDA",
+        "offset": 609,
+        "length": 12,
+        "payload_bytes": 10
+      },
+      {
+        "marker": "EOI",
+        "offset": 64165
+      }
+    ],
+    "scan_count": 1,
+    "malformed": [],
+    "eoi_present": true,
+    "trailing_after_eoi_bytes": 0,
+    "trailing_hex": "",
+    "pil_info": {
+      "jfif": "257",
+      "jfif_version": "(1, 1)",
+      "jfif_unit": "0",
+      "jfif_density": "(1, 1)"
+    },
+    "exif_tags": {}
+  },
+  "comparisons": [
+    {
+      "derived": "output\\iso-audit\\cicada-reproduced.png",
+      "archive": "archives\\neuroretransmit-cicada\\2013\\003-twitter\\decoded.png",
+      "derived_sha256": "a771856f794e923c7d876a95482e1a600da994659da18fbd1f10fde4936c3edb",
+      "archive_sha256": "a771856f794e923c7d876a95482e1a600da994659da18fbd1f10fde4936c3edb",
+      "byte_identical": true,
+      "decoded_pixel_bbox_diff": null,
+      "channel_difference_extrema": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_channel_difference": 0,
+      "mean_absolute_channel_difference_0_to_1": 0.0
+    },
+    {
+      "derived": "output\\iso-audit\\gematria-reproduced.jpg",
+      "archive": "archives\\archive2\\2013\\additional images\\Testout.jpg",
+      "derived_sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+      "archive_sha256": "8daa7cd8b8fe3e76c36a269e9b8c65bd1bbc7ea0341ec36c56a2a0730901eb03",
+      "byte_identical": false,
+      "decoded_pixel_bbox_diff": null,
+      "channel_difference_extrema": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_channel_difference": 0,
+      "mean_absolute_channel_difference_0_to_1": 0.0
+    },
+    {
+      "derived": "output\\iso-audit\\gematria-reproduced.jpg",
+      "archive": "archives\\archive2\\2014\\additional images\\Testout.jpg",
+      "derived_sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+      "archive_sha256": "8daa7cd8b8fe3e76c36a269e9b8c65bd1bbc7ea0341ec36c56a2a0730901eb03",
+      "byte_identical": false,
+      "decoded_pixel_bbox_diff": null,
+      "channel_difference_extrema": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_channel_difference": 0,
+      "mean_absolute_channel_difference_0_to_1": 0.0
+    },
+    {
+      "derived": "output\\iso-audit\\gematria-reproduced.jpg",
+      "archive": "archives\\archive2\\assets\\2013\\testout.jpg",
+      "derived_sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+      "archive_sha256": "3a8f604c7c256be3a195deca1d5339155057c7325969e8271428b4b751b4c3cf",
+      "byte_identical": false,
+      "decoded_pixel_bbox_diff": null,
+      "channel_difference_extrema": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_channel_difference": 0,
+      "mean_absolute_channel_difference_0_to_1": 0.0
+    },
+    {
+      "derived": "output\\iso-audit\\gematria-reproduced.jpg",
+      "archive": "archives\\archive2\\assets\\2013\\gematria-primus.jpg",
+      "derived_sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+      "archive_sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+      "byte_identical": true,
+      "decoded_pixel_bbox_diff": null,
+      "channel_difference_extrema": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_channel_difference": 0,
+      "mean_absolute_channel_difference_0_to_1": 0.0
+    },
+    {
+      "derived": "output\\iso-audit\\gematria-reproduced.jpg",
+      "archive": "archives\\archive2\\assets\\2014\\stage04\\gematria-primus.jpg",
+      "derived_sha256": "d4736b09cfac03097efcb5c2f48ffc71f46700835fc09f7549283956580eb35d",
+      "archive_sha256": "8daa7cd8b8fe3e76c36a269e9b8c65bd1bbc7ea0341ec36c56a2a0730901eb03",
+      "byte_identical": false,
+      "decoded_pixel_bbox_diff": null,
+      "channel_difference_extrema": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "max_channel_difference": 0,
+      "mean_absolute_channel_difference_0_to_1": 0.0
+    }
+  ],
+  "png_previews": [
+    {
+      "file": "output\\iso-audit\\cicada-png-contrast-preview-audit.png",
+      "size_bytes": 12569,
+      "sha256": "5483e182338090c9e4412fd63f66cae2f9186e96b118a3bf1d17b480094f5fe2"
+    },
+    {
+      "file": "output\\iso-audit\\cicada-png-bitplane-0-audit.png",
+      "size_bytes": 6609,
+      "sha256": "8edc946711130f0271b65b6d66a14f3228c53963990554d84913b52978dd3960"
+    },
+    {
+      "file": "output\\iso-audit\\cicada-png-bitplane-1-audit.png",
+      "size_bytes": 6304,
+      "sha256": "8d1ccc0dfbe3f7069c998013a3026df74ecfe1a90b8656ca22999f942faadcc1"
+    },
+    {
+      "file": "output\\iso-audit\\cicada-png-bitplane-2-audit.png",
+      "size_bytes": 4990,
+      "sha256": "4940d29aac979343596116bae46bd1b1ca1d7e046333fdaa57c349df8b471b12"
+    }
+  ]
+}

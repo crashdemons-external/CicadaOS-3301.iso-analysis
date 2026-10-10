@@ -1,0 +1,7 @@
+{
+  "rsa_signature_valid": true,
+  "cryptography_version": "50.0.2",
+  "key_fingerprint": "6D854CD7933322A601C3286D181F01E57A35090F",
+  "verified_digest": "2924ee8ba6fbd22fe98314e50193d51e6319b27f",
+  "scope": "Independent RSA/PKCS#1 v1.5 operation over the OpenPGP digest. Packet parsing/canonicalization uses the separately reviewed stdlib verifier."
+}

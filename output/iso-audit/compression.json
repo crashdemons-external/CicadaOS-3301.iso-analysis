@@ -1,0 +1,10 @@
+{
+  "compressed_size": 5494774,
+  "decompressed_size": 8324608,
+  "gzip_unused_size": 0,
+  "gzip_unused_hex": "",
+  "cpio_trailer_end": 8324468,
+  "cpio_after_trailer_size": 140,
+  "cpio_after_trailer_nonzero": 0,
+  "entries": 1202
+}
